@@ -1,0 +1,4 @@
+figure,panel_pair,ref_instance,mobile_instance,n_aligned_positions,rmsd_angstrom,alignment_target
+Figure4,D_low_ref_vs_E_high_mobile,pdb_00008en5-E,pdb_00008f6v-A,89,1.271023965396808,common IMGT framework (FR1-FR4) CA
+Figure6,short_ref_vs_long_mobile,pdb_00007sak-B,pdb_00006jb2-A,86,0.7259814739343898,common IMGT framework (FR1-FR4) CA
+Figure7,G_vhh_ref_vs_H_vh_mobile,pdb_00008k4q-B,pdb_00006wgl-A-B,90,0.7587175297698567,"common IMGT framework (FR1-FR4) CA, heavy chain only"

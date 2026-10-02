@@ -1,0 +1,16 @@
+2026-09-02 00:20:40,205 - Computing native VHH SASA for 533 representatives...
+2026-09-02 00:21:07,030 - VHH native SASA computed for 533 representatives, 0 errors
+2026-09-02 00:21:07,031 - Building combined Stage-5 residue table...
+2026-09-02 00:21:22,021 - Wrote /Users/betulgul/Desktop/staj/data/processed/stage5_interface_surface_chemistry_residues.parquet: 725674 rows
+2026-09-02 00:21:22,021 - 
+Row counts by structural_state:
+2026-09-02 00:21:22,029 - structural_state
+VH_WITHOUT_VL_GEOMETRIC    305806
+VH_WITH_VL_PAIRED          305806
+VHH_NATIVE                 114062
+2026-09-02 00:21:22,029 - 
+SASA availability by structural_state (non-null count):
+2026-09-02 00:21:22,049 - structural_state
+VHH_NATIVE                  65025
+VH_WITHOUT_VL_GEOMETRIC    172944
+VH_WITH_VL_PAIRED          172944

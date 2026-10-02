@@ -1,0 +1,12 @@
+source_stage,source_figure,scientific_question,main_or_supplementary,retain,merge_into_multiplanel,reason,redundant_with,final_figure_number_candidate,supplementary_category
+3,FIG_S3_02,Interface threshold sensitivity,supplementary,True,False,"Method-validation sensitivity, not central narrative",,,threshold_sensitivity
+4,FIG_S4_02,Sequence divergence detail,supplementary,True,False,Secondary detail,,,secondary_detail
+4,FIG_S4_03,Distribution detail,supplementary,True,False,Optional distributional detail,,,secondary_detail
+5,FIG_S5_03,Three-state (native/no-VL/paired) comparison,supplementary,True,False,Optional additional structural-state detail,,,secondary_detail
+6,FIG_S6_03,Spatial shielding mechanism detail,supplementary,True,False,"Spatial/mechanistic detail, secondary",,,secondary_detail
+7,stage7_fig2_position_pair_heatmap,CDR3 x target position-pair interaction frequency,supplementary,True,False,"Fine-grained residue-pair detail, not central narrative",,,secondary_detail
+7,stage7_fig3_composition_by_quartile,Interaction composition by shielding quartile,supplementary,True,False,Secondary compositional detail,,,secondary_detail
+8,fig2 (charge patches),"PPC/PNC, VHH vs VH",supplementary,True,False,Not FDR-significant in Stage 11 secondary family -- demoted from main,,,secondary_detail
+8,fig3 (patch topology),Project-specific hydrophobic patch topology,supplementary,True,False,"Explicitly project-specific, not TAP/TNP -- supplementary by original Stage-8 role",fig1 (largest patch overlaps),,other
+9,fig2 (region composition),Paratope region composition,supplementary,True,False,Compositional detail supporting fig1,,,secondary_detail
+11,fig4 (robustness map),Mechanism robustness across sensitivities,supplementary,True,False,Technical robustness control,,,robustness_map

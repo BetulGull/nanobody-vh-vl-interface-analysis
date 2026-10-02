@@ -1,0 +1,5 @@
+category,PDB,INSTANCE,chain,CDR,actual_sequence_residues,n_real_residues_in_cdr,imgt_positions_of_real_residues,unused_imgt_numbering_slots_in_range,observed_coordinate_residues,missing_real_residues,final_completeness_status
+A_legitimate_IMGT_gap_complete_coords,pdb_00001bzq,pdb_00001bzq-K,K,H1,GYAYTYIY,8,27;28;29;30;35;36;37;38,31;32;33;34,27;28;29;30;35;36;37;38,(none),True
+B_genuine_missing_coordinate_residue,pdb_00001kxt,pdb_00001kxt-B,B,H1,GYTFSSYP,8,unresolved;unresolved;29;30;35;36;37;38,27;28;31;32;33;34,29;30;35;36;37;38,"label_seq_id=26(GLY, UNOBSERVED);label_seq_id=27(TYR, UNOBSERVED)",False
+C_insertion_coded_residue,pdb_00001bzq,pdb_00001bzq-K,K,H3,AAGGYELRDRTYGQ,14,105;106;107;108;109;110;111;112A;112;113;114;115;116;117,,105;106;107;108;109;110;111;112A;112;113;114;115;116;117,(none),True
+D_fully_complete_normal_cdr,pdb_00001bzq,pdb_00001bzq-K,K,H2,MDSGGGGT,8,56;57;58;59;62;63;64;65,60;61,56;57;58;59;62;63;64;65,(none),True

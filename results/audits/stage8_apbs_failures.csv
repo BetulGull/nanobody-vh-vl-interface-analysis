@@ -1,0 +1,257 @@
+INSTANCE,PDB,group,status,error
+pdb_00001zmy-A,pdb_00001zmy,VHH,PDB2PQR_FAILURE,"
+
+Traceback (most recent call last):
+  File ""/Users/betulgul/micromamba/envs/vhh-elec/bin/pdb2pqr30"", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File ""/Users/betulgul/micromamba/envs/vhh-elec/lib/python3.11/site-packages/pdb2pqr/main.py"", line 829, in main
+    if main_driver(args) == 1:
+       ^^^^^^^^^^^^^^^^^
+  File ""/Users/betulgul/micromamba/envs/vhh-elec/lib/python3.11/site-packages/pdb2pqr/main.py"", line 802, in main_driver
+    raise RuntimeError from err
+RuntimeError
+"
+pdb_00004krp-B,pdb_00004krp,VHH,PDB2PQR_FAILURE,"
+
+Traceback (most recent call last):
+  File ""/Users/betulgul/micromamba/envs/vhh-elec/bin/pdb2pqr30"", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File ""/Users/betulgul/micromamba/envs/vhh-elec/lib/python3.11/site-packages/pdb2pqr/main.py"", line 829, in main
+    if main_driver(args) == 1:
+       ^^^^^^^^^^^^^^^^^
+  File ""/Users/betulgul/micromamba/envs/vhh-elec/lib/python3.11/site-packages/pdb2pqr/main.py"", line 802, in main_driver
+    raise RuntimeError from err
+RuntimeError
+"
+pdb_00004y8d-D,pdb_00004y8d,VHH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 39!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00005f7l-D,pdb_00005f7l,VHH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 137!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00006cwg-B,pdb_00006cwg,VHH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 137!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00006ey6-J,pdb_00006ey6,VHH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 348!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00006h6y-H,pdb_00006h6y,VHH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 38!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00007lzp-B,pdb_00007lzp,VHH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 350!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00007lzp-C,pdb_00007lzp,VHH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 40!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00007z1b-E,pdb_00007z1b,VHH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 134!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00007z1c-E,pdb_00007z1c,VHH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 2!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00008pe1-C,pdb_00008pe1,VHH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 171!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00003eoa-B-A,pdb_00003eoa,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 139!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00004fp8-H-L,pdb_00004fp8,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 383!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00004k2u-I-M,pdb_00004k2u,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 1!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00004qww-D-C,pdb_00004qww,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 1!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00004rgn-D-E,pdb_00004rgn,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 55!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00004zpt-A-B,pdb_00004zpt,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 354!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00005b71-B-A,pdb_00005b71,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 7!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00005bo1-H-L,pdb_00005bo1,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 1!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00005dfv-C-D,pdb_00005dfv,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 157!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00005hi5-C-D,pdb_00005hi5,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 1741!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00005ldn-H-L,pdb_00005ldn,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 56!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00005vlp-H-L,pdb_00005vlp,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 6!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00006a67-C-D,pdb_00006a67,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 1!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00006ewb-E-F,pdb_00006ewb,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 1!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00006hxw-C-D,pdb_00006hxw,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 152!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00006mej-A-B,pdb_00006mej,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 583!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00006vmj-B-A,pdb_00006vmj,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 1!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00006xm2-H-G,pdb_00006xm2,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 1!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00006ye3-A-B,pdb_00006ye3,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 169!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00007bh8-E-F,pdb_00007bh8,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 124!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00007cm4-H-L,pdb_00007cm4,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 429!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00007pa9-KKK-LLL,pdb_00007pa9,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 1!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00007ps6-C-D,pdb_00007ps6,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 621!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00007so5-H-L,pdb_00007so5,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 1!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00007uxl-A-B,pdb_00007uxl,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 41!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00007x8t-C-B,pdb_00007x8t,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 1!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00007zxk-H-L,pdb_00007zxk,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 793!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00008dn7-A-B,pdb_00008dn7,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 1!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00008vc7-B-A,pdb_00008vc7,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 264!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00008w86-A-B,pdb_00008w86,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 7!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00008yx9-E-F,pdb_00008yx9,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 1114!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00009b2w-B-C,pdb_00009b2w,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 2!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00009cmc-F-G,pdb_00009cmc,VH,PDB2PQR_FAILURE,"
+
+Traceback (most recent call last):
+  File ""/Users/betulgul/micromamba/envs/vhh-elec/bin/pdb2pqr30"", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File ""/Users/betulgul/micromamba/envs/vhh-elec/lib/python3.11/site-packages/pdb2pqr/main.py"", line 829, in main
+    if main_driver(args) == 1:
+       ^^^^^^^^^^^^^^^^^
+  File ""/Users/betulgul/micromamba/envs/vhh-elec/lib/python3.11/site-packages/pdb2pqr/main.py"", line 802, in main_driver
+    raise RuntimeError from err
+RuntimeError
+"
+pdb_00009dh2-A-D,pdb_00009dh2,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 1!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00009pzi-F-E,pdb_00009pzi,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 758!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00004kuc-F-E,pdb_00004kuc,VH,PDB2PQR_FAILURE,"
+
+Traceback (most recent call last):
+  File ""/Users/betulgul/micromamba/envs/vhh-elec/bin/pdb2pqr30"", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File ""/Users/betulgul/micromamba/envs/vhh-elec/lib/python3.11/site-packages/pdb2pqr/main.py"", line 829, in main
+    if main_driver(args) == 1:
+       ^^^^^^^^^^^^^^^^^
+  File ""/Users/betulgul/micromamba/envs/vhh-elec/lib/python3.11/site-packages/pdb2pqr/main.py"", line 802, in main_driver
+    raise RuntimeError from err
+RuntimeError
+"
+pdb_00005gs1-N-M,pdb_00005gs1,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 527!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00005yoy-G-D,pdb_00005yoy,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 1!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00005yy5-H-L,pdb_00005yy5,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 1!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00007shu-C-D,pdb_00007shu,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 638!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00007si0-C-D,pdb_00007si0,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 157!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00009ea9-M-K,pdb_00009ea9,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 41!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"
+pdb_00009sfx-B-A,pdb_00009sfx,VH,APBS_FAILURE,"Valist_readPQR:  Error parsing atom 5!
+Please double check this atom in the pqr file, e.g., make sure there are no concatenated fields.
+Error reading molecules!
+"

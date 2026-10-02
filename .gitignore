@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Derived / regenerable data (never the source of truth)
+data/interim/
+results/structures/temp/
+logs/*.tmp
+*.dx
+*.pqr
+
+# Raw data: large, immutable, and must never be committed to git.
+# These are the original SAbDab2 downloads and their extraction —
+# tracked by checksum in results/audits/ instead of by git.
+*.tgz
+*.tar.gz
+data/raw_extracted/
+
+# Conda/micromamba package caches, if ever created locally in-repo
+pkgs/
+envs/
+
+# APBS writes this working-directory log as a side effect of any invocation,
+# including --version / --help checks.
+io.mc
+
+# Third-party source with its own repository and license (see README)
+external/TNP/
+
+# Personal / working notes
+internship_notebook_aug14.pdf
+STAGE2_SESSION_SUMMARY.txt
+
+# Large publication-resolution rasters (PNG/PDF versions are tracked)
+*.tiff

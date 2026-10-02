@@ -1,0 +1,15 @@
+zhang_metric,status,vhh_source,vh_source
+FR2_CDR3_Dis,EXACT,frozen Stage-6,new (this task)
+CDR3-CDR1 interaction (4A threshold),EXACT,new,new
+CDR3-FR2 interaction (4A threshold),EXACT,new,new
+CDR3-CDR2 interaction (4A threshold),EXACT,new,new
+CDR3 secondary structure (DSSP G/T/E/S/C),EXACT,new (mkdssp),new (mkdssp)
+"SASA (domain-level, FreeSASA)",EXACT,reused frozen Stage-5 per-residue table (aggregated),reused frozen Stage-5 per-residue table (aggregated)
+Surface hydrophobicity (sum SASA x KD),EXACT,reused frozen Stage-5 per-residue table (aggregated),reused frozen Stage-5 per-residue table (aggregated)
+Surface charge (PEP-Patch LPP/LNP-adjacent),NOT_REPRODUCED,omitted - PEP-Patch not in project toolchain,omitted
+"LPP (largest positive patch area, PEP-Patch)",NOT_REPRODUCED,omitted,omitted
+"LNP (largest negative patch area, PEP-Patch)",NOT_REPRODUCED,omitted,omitted
+Correlation method (Pearson r),EXACT,confirmed from source text,confirmed from source text
+Multiple-testing correction (BH-FDR),EXACT,confirmed from source text,confirmed from source text
+CDR3 relative-position convention,ADAPTED_NOT_IN_SOURCE,"independently designed (rank-based), not attributed to Zhang",same
+Solubility,EXCLUDED_BY_INSTRUCTION,not computed,not computed

@@ -1,0 +1,97 @@
+# Stage 2 Configuration — Structure-Level QC
+# All scientific definitions and thresholds centralized here
+
+version: "1.0.0"
+stage: 2
+
+# IMGT CDR Definitions (Kabat numbering)
+imgt_cdr_definitions:
+  cdr_h1:
+    start: 27
+    end: 38
+    description: "Heavy CDR1 IMGT positions 27-38"
+  cdr_h2:
+    start: 56
+    end: 65
+    description: "Heavy CDR2 IMGT positions 56-65"
+  cdr_h3:
+    start: 105
+    end: 117
+    description: "Heavy CDR3 IMGT positions 105-117"
+  cdr_l1:
+    start: 27
+    end: 38
+    description: "Light CDR1 IMGT positions 27-38"
+  cdr_l2:
+    start: 56
+    end: 65
+    description: "Light CDR2 IMGT positions 56-65"
+  cdr_l3:
+    start: 105
+    end: 117
+    description: "Light CDR3 IMGT positions 105-117"
+
+# Backbone Atoms (canonical, chemically necessary)
+backbone_atoms:
+  - "N"
+  - "CA"
+  - "C"
+  - "O"
+
+# Distance Thresholds
+distances:
+  gordon_cdr_antigen_contact:
+    max_angstrom: 4.5
+    description: "Gordon-compatible CDR-protein-antigen contact threshold"
+  vh_vl_physical_pair:
+    max_angstrom: 5.0
+    description: "Permissive VH-VL physical proximity sanity check"
+
+# Altloc Policy
+altloc_policy:
+  strategy: "highest_occupancy_first"
+  description: "Prefer highest-occupancy conformer; tie-break deterministically"
+  tie_break: "alphabetical_first"
+
+# Gordon CDR-H3 Geometry Readiness (Stage 2 flag only; no geometry calculated)
+cdr_h3_geometry_anchor:
+  flanking_residues: 3
+  description: "Three structurally present anchor residues on each side of CDR-H3 for future Stage-6 geometry analysis"
+
+# Antigen Identification
+antigen_identification:
+  valid_polymer_types:
+    - "polypeptide(L)"
+    - "polypeptide(D)"
+  exclude_types:
+    - "water"
+    - "ion"
+    - "non-polymer"
+    - "nucleotide"
+    - "nucleic-acid"
+  description: "Amino-acid polymers only; exclude heterogens, water, ions, nucleic acids"
+
+# VH-VL Pairing
+pairing:
+  physical_proximity_threshold_angstrom: 5.0
+  description: "Paired structures must have at least one VH-VL atom pair within this distance"
+
+# Stage-2 Completion Criteria
+completion:
+  vhh_require_h_cdr_complete: true
+  paired_require_all_six_cdr_complete: true
+  require_gordon_contact: true
+  description: "Structures must pass CDR completeness AND have >= 1 CDR with protein-antigen contact <=4.5Å"
+
+# Checkpointing
+checkpointing:
+  enabled: true
+  checkpoint_interval: 100
+  checkpoint_dir: "data/interim/stage2/checkpoints/"
+  description: "Save checkpoint every N structures for resumability"
+
+# Logging
+logging:
+  level: "INFO"
+  log_file: "logs/stage2_structure_qc.log"
+  include_timestamps: true

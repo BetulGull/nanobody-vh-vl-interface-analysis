@@ -1,0 +1,33 @@
+environment	software	version	source	test_status
+vhh3d	python	3.11.16	conda-forge	PASS (import/version)
+vhh3d	numpy	2.4.6	conda-forge	PASS (import)
+vhh3d	pandas	3.0.5	conda-forge	PASS (import + parquet roundtrip)
+vhh3d	scipy	1.17.1	conda-forge	PASS (import)
+vhh3d	scikit-learn	1.9.0	conda-forge	PASS (import)
+vhh3d	statsmodels	0.15.0	conda-forge	PASS (import)
+vhh3d	matplotlib	3.11.1	conda-forge	PASS (import)
+vhh3d	biopython	1.88	conda-forge	PASS (import)
+vhh3d	gemmi	0.7.5	conda-forge	PASS (import + read real SD-H cif)
+vhh3d	pyarrow	25.0.0	conda-forge	PASS (import)
+vhh3d	pyyaml	6.0.3	conda-forge	PASS (import + config.yaml parse)
+vhh3d	tqdm	4.70.0	conda-forge	PASS (import)
+vhh3d	joblib	1.6.0	conda-forge	PASS (import)
+vhh3d	networkx	3.6.1	conda-forge	PASS (import)
+vhh3d	freesasa	2.2.1	conda-forge (freesasa-python)	PASS (import + basic attr check)
+vhh3d	pytest	9.1.1	conda-forge	PASS (self-hosted: ran the suite)
+vhh3d	cd-hit	4.8.1	bioconda	PASS (CLI -h)
+vhh3d	mkdssp	4.6.1	conda-forge (dssp package)	PASS (CLI --version); note: no bare `dssp` alias present, only `mkdssp`
+vhh3d	packaging	26.3	conda-forge	not directly tested (transitive dep)
+vhh3d	requests	2.34.2	conda-forge	not directly tested (transitive dep)
+vhh3d	rich	15.0.0	conda-forge	not directly tested (transitive dep)
+vhh-arpeggio	python	3.9.23	conda-forge	PASS (version)
+vhh-arpeggio	gemmi	0.7.3	conda-forge	PASS (import)
+vhh-arpeggio	openbabel	3.1.0	conda-forge	PASS (obabel -V)
+vhh-arpeggio	biopython	1.85	conda-forge	PASS (import, transitive dep of pdbe-arpeggio)
+vhh-arpeggio	pdbe-arpeggio	1.4.4	pip (inside isolated env)	PASS (CLI -h, python `import arpeggio`)
+vhh-elec	python	3.11.16	conda-forge	PASS (version)
+vhh-elec	apbs	3.4.1	conda-forge	PASS (apbs --version)
+vhh-elec	pdb2pqr	3.6.1	conda-forge	PASS (pdb2pqr --help, pdb2pqr30 also present)
+external/TNP	pdbe/TNP (source only)	commit 29dcac72f1380e8538e8870f45a699d3c6156162	git clone (github.com/oxpig/TNP)	source cloned only; not installed, not run
+system	docker	29.2.1	pre-existing system install	checked for availability only; not used
+system	python3	3.9.6	Apple system Python	used read-only for archive/text inspection; nothing installed into it

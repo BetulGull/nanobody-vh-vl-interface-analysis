@@ -1,0 +1,31 @@
+feature,feature_key,IMGT_position
+Sequence divergence,seq_divergence,40
+Sequence divergence,seq_divergence,42
+Sequence divergence,seq_divergence,49
+Sequence divergence,seq_divergence,50
+Sequence divergence,seq_divergence,52
+Hydropathy shift,hydropathy_shift,42
+Hydropathy shift,hydropathy_shift,49
+Hydropathy shift,hydropathy_shift,50
+Hydropathy shift,hydropathy_shift,52
+Hydropathy shift,hydropathy_shift,115
+Charge shift,charge_shift,49
+Charge shift,charge_shift,50
+Charge shift,charge_shift,69
+Charge shift,charge_shift,107
+Charge shift,charge_shift,116
+Native exposure difference,native_exposure,49
+Native exposure difference,native_exposure,50
+Native exposure difference,native_exposure,52
+Native exposure difference,native_exposure,112
+Native exposure difference,native_exposure,112B
+CDR3 shielding (VHH only),cdr3_shielding,42
+CDR3 shielding (VHH only),cdr3_shielding,52
+CDR3 shielding (VHH only),cdr3_shielding,55
+CDR3 shielding (VHH only),cdr3_shielding,66
+CDR3 shielding (VHH only),cdr3_shielding,118
+Antigen engagement,antigen_engagement,42
+Antigen engagement,antigen_engagement,49
+Antigen engagement,antigen_engagement,50
+Antigen engagement,antigen_engagement,52
+Antigen engagement,antigen_engagement,118

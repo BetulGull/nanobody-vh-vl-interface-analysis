@@ -1,0 +1,3 @@
+part,N,coef,p
+A_any_engagement_logit,533,-4.710216785503417,2.506777423834771e-05
+B_magnitude_given_nonzero_OLS,354,-1.0825720977711746,3.038743322914648e-29

@@ -1,0 +1,21 @@
+check_id,description,passed,notes
+1,Panel-A N matches frozen Stage-8 cohort N,True,"VHH=533, VH=1429"
+2,Exact frozen PSH values used (no recompute),True,exemplar PSH matches stage8_surface_patch_descriptors.parquet exactly
+3,Exact 95th-percentile calculation matches full frozen group distribution,True,
+4,Exemplar selection deterministic (nearest-distance + fixed tie-break chain),True,"selection_rank=1, single unique minimum distance for both groups, no ties encountered"
+5,No visual/manual selection used,True,exemplars frozen via results/structures/stage12_raybould_style_high_psh_exemplars.csv BEFORE any rendering was attempted
+6,"Exact 28-position (25 unique integer) empirical interface used, not tetrad/15/14-position sets",True,"[40, 42, 44, 49, 50, 52, 55, 66, 67, 68, 69, 103, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 118, 119, 120]"
+7,Exact IMGT insertion codes preserved through mapping table,True,insertion codes present in source comp table for these 2 exemplars: True (neither exemplar happens to have insertions; codes ARE explicitly retained as columns in the writer/mapping logic and validated project-wide in Stage 7-9)
+8,Correct VHH/VH chains used,True,"VHH Hchain=A, VH Hchain=H, VL chain=L"
+9,VH exemplar comes from a paired VH-VL structure (not a VHH),True,INSTANCE pdb_00006wo3-H-L found in stage3_paired_representatives.parquet
+10,VL hidden (not deleted) from scientific source-data record,True,vh_exemplar_with_vl_aligned.pdb retains VL atoms on disk; only Panel D/E surface uses VH-only atoms per Stage-5 VH_WITHOUT_VL_GEOMETRIC convention
+11,No antigen rendered,True,"extract_variable_domain_atoms restricted to H(+L) chain only, antigen never extracted"
+12,Exposure status matches frozen Stage-8 classification,True,"residue mapping table built directly from stage8_patch_components.parquet is_surface_exposed column, no recomputation"
+13,Hydropathy values match frozen Stage-8 normalized KD values,True,B-factor field populated directly from stage8_patch_components.parquet kyte_doolittle_norm column
+14,Common hydropathy color scale limits (1.0-2.0) for both panels,True,"single spectrum command with minimum=1.0, maximum=2.0 applied identically to both C and D"
+15,Common camera transform for panels B/C/D/E,True,"single view_c captured after Panel C render, applied via cmd.set_view() to all subsequent panels"
+16,Same molecular scale (no independent zoom),True,orient/zoom called once on Panel C; all other panels reuse that exact view matrix
+17,Largest patch membership matches frozen Stage-8 aggregate component count,True,VHH: regen=9 vs frozen=9; VH: regen=10 vs frozen=10
+18,No per-panel autoscaling of color or camera,True,fixed minimum/maximum=1.0/2.0 and shared cmd.set_view() throughout
+19,"No recalculation of Stage-8 scientific metrics (PSH/exposure/hydropathy read from frozen tables; only patch COMPONENT LABELING was regenerated using the unchanged frozen algorithm, since per-residue labels were not persisted -- validated exact match in check 17)",True,
+20,Upstream frozen Stage 2-12 values unchanged,True,"VHH N=533, VH N=1429"

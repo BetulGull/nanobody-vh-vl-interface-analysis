@@ -1,0 +1,4 @@
+metric,N_VHH,VHH_mean,VHH_median,N_VH_Fv,VH_Fv_mean,VH_Fv_median
+total_unique_antibody_contact_residues,533,18.587242026266416,18.0,1429,21.92372288313506,22.0
+total_unique_antigen_contact_residues,533,20.335834896810507,19.0,1429,20.233030090972708,20.0
+unique_residue_pair_count,533,47.54784240150094,45.0,1429,50.38488453463961,49.0

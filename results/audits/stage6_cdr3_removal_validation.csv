@@ -1,0 +1,11 @@
+category,INSTANCE,Hchain,n_cdr3_atoms_in_native,n_cdr3_atoms_remaining_in_nocdr3_state,n_noncdr3_atoms_native,n_atoms_in_nocdr3_state,no_atoms_outside_cdr3_removed,zero_cdr3_atoms_in_nocdr3_state,retained_coords_identical,native_sasa_reproducible,nocdr3_sasa_reproducible,total_native_sasa,total_nocdr3_sasa
+long_CDR3_insertion_rich,pdb_00003k3q-A,A,141,0,875,875,True,True,True,True,True,6852.656335052487,6698.571479418828
+low_coverage_short_CDR3,pdb_00009imx-C,C,150,0,582,582,True,True,True,True,True,5582.590645397581,5011.2397145177065
+unusual_multichar_chain,pdb_00006zbp-FFF,FFF,175,0,817,817,True,True,True,True,True,6615.3433423573915,6152.170592284411
+unusual_multichar_chain_2,pdb_00006ul6-B1,B1,143,0,797,797,True,True,True,True,True,6810.843606436316,6047.630814426006
+high_resolution,pdb_00008qf4-E,E,159,0,821,821,True,True,True,True,True,6979.81889064165,6134.2152995224615
+low_resolution,pdb_00001zmy-A,A,184,0,770,770,True,True,True,True,True,6374.133850201188,5862.524236371154
+low_coverage_2,pdb_00007m1h-G,G,107,0,675,675,True,True,True,True,True,6202.316711104911,5839.451368399864
+incomplete_coordinate_case,pdb_00003zkx-C,C,42,0,786,786,True,True,True,True,True,6034.177840695576,6085.315924462705
+long_CDR3_2,pdb_00006oca-D,D,144,0,890,890,True,True,True,True,True,7233.395634845478,6845.079668271364
+long_CDR3_3,pdb_00009gv3-E,E,209,0,822,822,True,True,True,True,True,7038.576149371852,6266.7312695751025

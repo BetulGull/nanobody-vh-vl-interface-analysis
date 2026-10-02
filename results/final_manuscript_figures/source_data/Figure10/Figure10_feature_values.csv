@@ -1,0 +1,111 @@
+feature,feature_key,IMGT_position,value,value_type,direction_definition,important,source_file
+Sequence divergence,seq_divergence,38,,unsigned,unsigned magnitude (JSD >= 0),False,stage4_position_chemistry_comparison.csv
+Sequence divergence,seq_divergence,39,,unsigned,unsigned magnitude (JSD >= 0),False,stage4_position_chemistry_comparison.csv
+Sequence divergence,seq_divergence,40,0.5717990113589737,unsigned,unsigned magnitude (JSD >= 0),True,stage4_position_chemistry_comparison.csv
+Sequence divergence,seq_divergence,41,,unsigned,unsigned magnitude (JSD >= 0),False,stage4_position_chemistry_comparison.csv
+Sequence divergence,seq_divergence,42,0.7989690045816192,unsigned,unsigned magnitude (JSD >= 0),True,stage4_position_chemistry_comparison.csv
+Sequence divergence,seq_divergence,43,,unsigned,unsigned magnitude (JSD >= 0),False,stage4_position_chemistry_comparison.csv
+Sequence divergence,seq_divergence,44,0.0226880136357431,unsigned,unsigned magnitude (JSD >= 0),False,stage4_position_chemistry_comparison.csv
+Sequence divergence,seq_divergence,47,,unsigned,unsigned magnitude (JSD >= 0),False,stage4_position_chemistry_comparison.csv
+Sequence divergence,seq_divergence,48,,unsigned,unsigned magnitude (JSD >= 0),False,stage4_position_chemistry_comparison.csv
+Sequence divergence,seq_divergence,49,0.7208816554161888,unsigned,unsigned magnitude (JSD >= 0),True,stage4_position_chemistry_comparison.csv
+Sequence divergence,seq_divergence,50,0.8140613856540256,unsigned,unsigned magnitude (JSD >= 0),True,stage4_position_chemistry_comparison.csv
+Sequence divergence,seq_divergence,51,,unsigned,unsigned magnitude (JSD >= 0),False,stage4_position_chemistry_comparison.csv
+Sequence divergence,seq_divergence,52,0.6945699265451374,unsigned,unsigned magnitude (JSD >= 0),True,stage4_position_chemistry_comparison.csv
+Sequence divergence,seq_divergence,53,,unsigned,unsigned magnitude (JSD >= 0),False,stage4_position_chemistry_comparison.csv
+Sequence divergence,seq_divergence,54,,unsigned,unsigned magnitude (JSD >= 0),False,stage4_position_chemistry_comparison.csv
+Hydropathy shift,hydropathy_shift,40,1.7558593960273452,signed_VHHminusVH,"positive = VHH more hydrophobic, negative = VHH more hydrophilic",False,stage4_position_chemistry_comparison.csv
+Hydropathy shift,hydropathy_shift,41,,signed_VHHminusVH,"positive = VHH more hydrophobic, negative = VHH more hydrophilic",False,stage4_position_chemistry_comparison.csv
+Hydropathy shift,hydropathy_shift,42,-2.552284952412963,signed_VHHminusVH,"positive = VHH more hydrophobic, negative = VHH more hydrophilic",True,stage4_position_chemistry_comparison.csv
+Hydropathy shift,hydropathy_shift,43,,signed_VHHminusVH,"positive = VHH more hydrophobic, negative = VHH more hydrophilic",False,stage4_position_chemistry_comparison.csv
+Hydropathy shift,hydropathy_shift,44,-0.0932325180494637,signed_VHHminusVH,"positive = VHH more hydrophobic, negative = VHH more hydrophilic",False,stage4_position_chemistry_comparison.csv
+Hydropathy shift,hydropathy_shift,47,,signed_VHHminusVH,"positive = VHH more hydrophobic, negative = VHH more hydrophilic",False,stage4_position_chemistry_comparison.csv
+Hydropathy shift,hydropathy_shift,48,,signed_VHHminusVH,"positive = VHH more hydrophobic, negative = VHH more hydrophilic",False,stage4_position_chemistry_comparison.csv
+Hydropathy shift,hydropathy_shift,49,-2.3470111874505184,signed_VHHminusVH,"positive = VHH more hydrophobic, negative = VHH more hydrophilic",True,stage4_position_chemistry_comparison.csv
+Hydropathy shift,hydropathy_shift,50,-7.506424545431868,signed_VHHminusVH,"positive = VHH more hydrophobic, negative = VHH more hydrophilic",True,stage4_position_chemistry_comparison.csv
+Hydropathy shift,hydropathy_shift,51,,signed_VHHminusVH,"positive = VHH more hydrophobic, negative = VHH more hydrophilic",False,stage4_position_chemistry_comparison.csv
+Hydropathy shift,hydropathy_shift,52,2.5756209159766144,signed_VHHminusVH,"positive = VHH more hydrophobic, negative = VHH more hydrophilic",True,stage4_position_chemistry_comparison.csv
+Hydropathy shift,hydropathy_shift,53,,signed_VHHminusVH,"positive = VHH more hydrophobic, negative = VHH more hydrophilic",False,stage4_position_chemistry_comparison.csv
+Hydropathy shift,hydropathy_shift,54,,signed_VHHminusVH,"positive = VHH more hydrophobic, negative = VHH more hydrophilic",False,stage4_position_chemistry_comparison.csv
+Hydropathy shift,hydropathy_shift,113,0.0401118345873706,signed_VHHminusVH,"positive = VHH more hydrophobic, negative = VHH more hydrophilic",False,stage4_position_chemistry_comparison.csv
+Hydropathy shift,hydropathy_shift,114,-1.0393630332181905,signed_VHHminusVH,"positive = VHH more hydrophobic, negative = VHH more hydrophilic",False,stage4_position_chemistry_comparison.csv
+Hydropathy shift,hydropathy_shift,115,-2.950533975106231,signed_VHHminusVH,"positive = VHH more hydrophobic, negative = VHH more hydrophilic",True,stage4_position_chemistry_comparison.csv
+Hydropathy shift,hydropathy_shift,116,0.4307805298479619,signed_VHHminusVH,"positive = VHH more hydrophobic, negative = VHH more hydrophilic",False,stage4_position_chemistry_comparison.csv
+Hydropathy shift,hydropathy_shift,117,,signed_VHHminusVH,"positive = VHH more hydrophobic, negative = VHH more hydrophilic",False,stage4_position_chemistry_comparison.csv
+Charge shift,charge_shift,47,,signed_VHHminusVH,"positive = VHH more positive, negative = VHH more negative",False,"Figure9_position_level_bridge.csv (derived: mean charge-score, VHH-VH)"
+Charge shift,charge_shift,48,,signed_VHHminusVH,"positive = VHH more positive, negative = VHH more negative",False,"Figure9_position_level_bridge.csv (derived: mean charge-score, VHH-VH)"
+Charge shift,charge_shift,49,-0.7495696881929793,signed_VHHminusVH,"positive = VHH more positive, negative = VHH more negative",True,"Figure9_position_level_bridge.csv (derived: mean charge-score, VHH-VH)"
+Charge shift,charge_shift,50,0.901313320825516,signed_VHHminusVH,"positive = VHH more positive, negative = VHH more negative",True,"Figure9_position_level_bridge.csv (derived: mean charge-score, VHH-VH)"
+Charge shift,charge_shift,51,,signed_VHHminusVH,"positive = VHH more positive, negative = VHH more negative",False,"Figure9_position_level_bridge.csv (derived: mean charge-score, VHH-VH)"
+Charge shift,charge_shift,52,0.0098574555213173,signed_VHHminusVH,"positive = VHH more positive, negative = VHH more negative",False,"Figure9_position_level_bridge.csv (derived: mean charge-score, VHH-VH)"
+Charge shift,charge_shift,67,-0.0015992763146665,signed_VHHminusVH,"positive = VHH more positive, negative = VHH more negative",False,"Figure9_position_level_bridge.csv (derived: mean charge-score, VHH-VH)"
+Charge shift,charge_shift,68,0.012538824160058,signed_VHHminusVH,"positive = VHH more positive, negative = VHH more negative",False,"Figure9_position_level_bridge.csv (derived: mean charge-score, VHH-VH)"
+Charge shift,charge_shift,69,-0.5069413131106102,signed_VHHminusVH,"positive = VHH more positive, negative = VHH more negative",True,"Figure9_position_level_bridge.csv (derived: mean charge-score, VHH-VH)"
+Charge shift,charge_shift,70,,signed_VHHminusVH,"positive = VHH more positive, negative = VHH more negative",False,"Figure9_position_level_bridge.csv (derived: mean charge-score, VHH-VH)"
+Charge shift,charge_shift,71,,signed_VHHminusVH,"positive = VHH more positive, negative = VHH more negative",False,"Figure9_position_level_bridge.csv (derived: mean charge-score, VHH-VH)"
+Charge shift,charge_shift,105,,signed_VHHminusVH,"positive = VHH more positive, negative = VHH more negative",False,"Figure9_position_level_bridge.csv (derived: mean charge-score, VHH-VH)"
+Charge shift,charge_shift,106,,signed_VHHminusVH,"positive = VHH more positive, negative = VHH more negative",False,"Figure9_position_level_bridge.csv (derived: mean charge-score, VHH-VH)"
+Charge shift,charge_shift,107,0.214741093435498,signed_VHHminusVH,"positive = VHH more positive, negative = VHH more negative",True,"Figure9_position_level_bridge.csv (derived: mean charge-score, VHH-VH)"
+Charge shift,charge_shift,108,0.0484704086754605,signed_VHHminusVH,"positive = VHH more positive, negative = VHH more negative",False,"Figure9_position_level_bridge.csv (derived: mean charge-score, VHH-VH)"
+Charge shift,charge_shift,109,0.0553736159647946,signed_VHHminusVH,"positive = VHH more positive, negative = VHH more negative",False,"Figure9_position_level_bridge.csv (derived: mean charge-score, VHH-VH)"
+Charge shift,charge_shift,114,-0.1924628575944365,signed_VHHminusVH,"positive = VHH more positive, negative = VHH more negative",False,"Figure9_position_level_bridge.csv (derived: mean charge-score, VHH-VH)"
+Charge shift,charge_shift,115,0.014193534533664,signed_VHHminusVH,"positive = VHH more positive, negative = VHH more negative",False,"Figure9_position_level_bridge.csv (derived: mean charge-score, VHH-VH)"
+Charge shift,charge_shift,116,0.2899930020993703,signed_VHHminusVH,"positive = VHH more positive, negative = VHH more negative",True,"Figure9_position_level_bridge.csv (derived: mean charge-score, VHH-VH)"
+Charge shift,charge_shift,117,,signed_VHHminusVH,"positive = VHH more positive, negative = VHH more negative",False,"Figure9_position_level_bridge.csv (derived: mean charge-score, VHH-VH)"
+Charge shift,charge_shift,118,0.0555853881734166,signed_VHHminusVH,"positive = VHH more positive, negative = VHH more negative",False,"Figure9_position_level_bridge.csv (derived: mean charge-score, VHH-VH)"
+Native exposure,native_exposure,47,,signed_VHHminusVH,"positive = VHH more exposed, negative = VH more exposed",False,Figure9_position_level_bridge.csv (derived: VHH_native_exposure-VH_native_exposure)
+Native exposure,native_exposure,48,,signed_VHHminusVH,"positive = VHH more exposed, negative = VH more exposed",False,Figure9_position_level_bridge.csv (derived: VHH_native_exposure-VH_native_exposure)
+Native exposure,native_exposure,49,70.93733847121752,signed_VHHminusVH,"positive = VHH more exposed, negative = VH more exposed",True,Figure9_position_level_bridge.csv (derived: VHH_native_exposure-VH_native_exposure)
+Native exposure,native_exposure,50,-18.066262456752384,signed_VHHminusVH,"positive = VHH more exposed, negative = VH more exposed",True,Figure9_position_level_bridge.csv (derived: VHH_native_exposure-VH_native_exposure)
+Native exposure,native_exposure,51,,signed_VHHminusVH,"positive = VHH more exposed, negative = VH more exposed",False,Figure9_position_level_bridge.csv (derived: VHH_native_exposure-VH_native_exposure)
+Native exposure,native_exposure,52,-48.524599741918095,signed_VHHminusVH,"positive = VHH more exposed, negative = VH more exposed",True,Figure9_position_level_bridge.csv (derived: VHH_native_exposure-VH_native_exposure)
+Native exposure,native_exposure,53,,signed_VHHminusVH,"positive = VHH more exposed, negative = VH more exposed",False,Figure9_position_level_bridge.csv (derived: VHH_native_exposure-VH_native_exposure)
+Native exposure,native_exposure,54,,signed_VHHminusVH,"positive = VHH more exposed, negative = VH more exposed",False,Figure9_position_level_bridge.csv (derived: VHH_native_exposure-VH_native_exposure)
+Native exposure,native_exposure,111,-16.937034915597664,signed_VHHminusVH,"positive = VHH more exposed, negative = VH more exposed",False,Figure9_position_level_bridge.csv (derived: VHH_native_exposure-VH_native_exposure)
+Native exposure,native_exposure,111A,-16.93080870629369,signed_VHHminusVH,"positive = VHH more exposed, negative = VH more exposed",False,Figure9_position_level_bridge.csv (derived: VHH_native_exposure-VH_native_exposure)
+Native exposure,native_exposure,112,-23.472693874615402,signed_VHHminusVH,"positive = VHH more exposed, negative = VH more exposed",True,Figure9_position_level_bridge.csv (derived: VHH_native_exposure-VH_native_exposure)
+Native exposure,native_exposure,112A,-12.405268509107785,signed_VHHminusVH,"positive = VHH more exposed, negative = VH more exposed",False,Figure9_position_level_bridge.csv (derived: VHH_native_exposure-VH_native_exposure)
+Native exposure,native_exposure,112B,-22.288150187583668,signed_VHHminusVH,"positive = VHH more exposed, negative = VH more exposed",True,Figure9_position_level_bridge.csv (derived: VHH_native_exposure-VH_native_exposure)
+Native exposure,native_exposure,113,6.465896430031364,signed_VHHminusVH,"positive = VHH more exposed, negative = VH more exposed",False,Figure9_position_level_bridge.csv (derived: VHH_native_exposure-VH_native_exposure)
+Native exposure,native_exposure,114,-3.1700520662239597,signed_VHHminusVH,"positive = VHH more exposed, negative = VH more exposed",False,Figure9_position_level_bridge.csv (derived: VHH_native_exposure-VH_native_exposure)
+CDR3 shielding (VHH only),cdr3_shielding,40,18.087047876176356,unsigned_VHHonly,VHH-only geometric magnitude; no conventional-VH equivalent exists,False,stage6_position_shielding_summary.csv
+CDR3 shielding (VHH only),cdr3_shielding,41,,unsigned_VHHonly,VHH-only geometric magnitude; no conventional-VH equivalent exists,False,stage6_position_shielding_summary.csv
+CDR3 shielding (VHH only),cdr3_shielding,42,42.27861647392798,unsigned_VHHonly,VHH-only geometric magnitude; no conventional-VH equivalent exists,True,stage6_position_shielding_summary.csv
+CDR3 shielding (VHH only),cdr3_shielding,43,,unsigned_VHHonly,VHH-only geometric magnitude; no conventional-VH equivalent exists,False,stage6_position_shielding_summary.csv
+CDR3 shielding (VHH only),cdr3_shielding,44,0.3437026266918016,unsigned_VHHonly,VHH-only geometric magnitude; no conventional-VH equivalent exists,False,stage6_position_shielding_summary.csv
+CDR3 shielding (VHH only),cdr3_shielding,50,14.977634330102529,unsigned_VHHonly,VHH-only geometric magnitude; no conventional-VH equivalent exists,False,stage6_position_shielding_summary.csv
+CDR3 shielding (VHH only),cdr3_shielding,51,,unsigned_VHHonly,VHH-only geometric magnitude; no conventional-VH equivalent exists,False,stage6_position_shielding_summary.csv
+CDR3 shielding (VHH only),cdr3_shielding,52,24.015359683768885,unsigned_VHHonly,VHH-only geometric magnitude; no conventional-VH equivalent exists,True,stage6_position_shielding_summary.csv
+CDR3 shielding (VHH only),cdr3_shielding,53,,unsigned_VHHonly,VHH-only geometric magnitude; no conventional-VH equivalent exists,False,stage6_position_shielding_summary.csv
+CDR3 shielding (VHH only),cdr3_shielding,54,,unsigned_VHHonly,VHH-only geometric magnitude; no conventional-VH equivalent exists,False,stage6_position_shielding_summary.csv
+CDR3 shielding (VHH only),cdr3_shielding,55,21.097565809579063,unsigned_VHHonly,VHH-only geometric magnitude; no conventional-VH equivalent exists,True,stage6_position_shielding_summary.csv
+CDR3 shielding (VHH only),cdr3_shielding,56,,unsigned_VHHonly,VHH-only geometric magnitude; no conventional-VH equivalent exists,False,stage6_position_shielding_summary.csv
+CDR3 shielding (VHH only),cdr3_shielding,57,,unsigned_VHHonly,VHH-only geometric magnitude; no conventional-VH equivalent exists,False,stage6_position_shielding_summary.csv
+CDR3 shielding (VHH only),cdr3_shielding,64,,unsigned_VHHonly,VHH-only geometric magnitude; no conventional-VH equivalent exists,False,stage6_position_shielding_summary.csv
+CDR3 shielding (VHH only),cdr3_shielding,65,,unsigned_VHHonly,VHH-only geometric magnitude; no conventional-VH equivalent exists,False,stage6_position_shielding_summary.csv
+CDR3 shielding (VHH only),cdr3_shielding,66,27.60173254268766,unsigned_VHHonly,VHH-only geometric magnitude; no conventional-VH equivalent exists,True,stage6_position_shielding_summary.csv
+CDR3 shielding (VHH only),cdr3_shielding,67,2.760200659494032,unsigned_VHHonly,VHH-only geometric magnitude; no conventional-VH equivalent exists,False,stage6_position_shielding_summary.csv
+CDR3 shielding (VHH only),cdr3_shielding,68,2.3513474382888178,unsigned_VHHonly,VHH-only geometric magnitude; no conventional-VH equivalent exists,False,stage6_position_shielding_summary.csv
+CDR3 shielding (VHH only),cdr3_shielding,116,,unsigned_VHHonly,VHH-only geometric magnitude; no conventional-VH equivalent exists,False,stage6_position_shielding_summary.csv
+CDR3 shielding (VHH only),cdr3_shielding,117,,unsigned_VHHonly,VHH-only geometric magnitude; no conventional-VH equivalent exists,False,stage6_position_shielding_summary.csv
+CDR3 shielding (VHH only),cdr3_shielding,118,87.76919896225134,unsigned_VHHonly,VHH-only geometric magnitude; no conventional-VH equivalent exists,True,stage6_position_shielding_summary.csv
+CDR3 shielding (VHH only),cdr3_shielding,119,0.5442793760745788,unsigned_VHHonly,VHH-only geometric magnitude; no conventional-VH equivalent exists,False,stage6_position_shielding_summary.csv
+CDR3 shielding (VHH only),cdr3_shielding,120,0.2635001106173987,unsigned_VHHonly,VHH-only geometric magnitude; no conventional-VH equivalent exists,False,stage6_position_shielding_summary.csv
+Antigen engagement,antigen_engagement,40,0.029995129041025,signed_VHHminusVH (existing frozen column),"positive = VHH engages more, negative = VH engages more",False,stage9_framework_antigen_contact_frequency.csv
+Antigen engagement,antigen_engagement,41,,signed_VHHminusVH (existing frozen column),"positive = VHH engages more, negative = VH engages more",False,stage9_framework_antigen_contact_frequency.csv
+Antigen engagement,antigen_engagement,42,0.2260938979094264,signed_VHHminusVH (existing frozen column),"positive = VHH engages more, negative = VH engages more",True,stage9_framework_antigen_contact_frequency.csv
+Antigen engagement,antigen_engagement,43,,signed_VHHminusVH (existing frozen column),"positive = VHH engages more, negative = VH engages more",False,stage9_framework_antigen_contact_frequency.csv
+Antigen engagement,antigen_engagement,44,0.0450281425891182,signed_VHHminusVH (existing frozen column),"positive = VHH engages more, negative = VH engages more",False,stage9_framework_antigen_contact_frequency.csv
+Antigen engagement,antigen_engagement,47,,signed_VHHminusVH (existing frozen column),"positive = VHH engages more, negative = VH engages more",False,stage9_framework_antigen_contact_frequency.csv
+Antigen engagement,antigen_engagement,48,,signed_VHHminusVH (existing frozen column),"positive = VHH engages more, negative = VH engages more",False,stage9_framework_antigen_contact_frequency.csv
+Antigen engagement,antigen_engagement,49,0.1531463637831727,signed_VHHminusVH (existing frozen column),"positive = VHH engages more, negative = VH engages more",True,stage9_framework_antigen_contact_frequency.csv
+Antigen engagement,antigen_engagement,50,0.1981745063722909,signed_VHHminusVH (existing frozen column),"positive = VHH engages more, negative = VH engages more",True,stage9_framework_antigen_contact_frequency.csv
+Antigen engagement,antigen_engagement,51,,signed_VHHminusVH (existing frozen column),"positive = VHH engages more, negative = VH engages more",False,stage9_framework_antigen_contact_frequency.csv
+Antigen engagement,antigen_engagement,52,0.2479147437757415,signed_VHHminusVH (existing frozen column),"positive = VHH engages more, negative = VH engages more",True,stage9_framework_antigen_contact_frequency.csv
+Antigen engagement,antigen_engagement,53,,signed_VHHminusVH (existing frozen column),"positive = VHH engages more, negative = VH engages more",False,stage9_framework_antigen_contact_frequency.csv
+Antigen engagement,antigen_engagement,54,,signed_VHHminusVH (existing frozen column),"positive = VHH engages more, negative = VH engages more",False,stage9_framework_antigen_contact_frequency.csv
+Antigen engagement,antigen_engagement,116,,signed_VHHminusVH (existing frozen column),"positive = VHH engages more, negative = VH engages more",False,stage9_framework_antigen_contact_frequency.csv
+Antigen engagement,antigen_engagement,117,,signed_VHHminusVH (existing frozen column),"positive = VHH engages more, negative = VH engages more",False,stage9_framework_antigen_contact_frequency.csv
+Antigen engagement,antigen_engagement,118,0.1780132001675294,signed_VHHminusVH (existing frozen column),"positive = VHH engages more, negative = VH engages more",True,stage9_framework_antigen_contact_frequency.csv
+Antigen engagement,antigen_engagement,119,0.0112570356472795,signed_VHHminusVH (existing frozen column),"positive = VHH engages more, negative = VH engages more",False,stage9_framework_antigen_contact_frequency.csv
+Antigen engagement,antigen_engagement,120,0.0236904538394579,signed_VHHminusVH (existing frozen column),"positive = VHH engages more, negative = VH engages more",False,stage9_framework_antigen_contact_frequency.csv

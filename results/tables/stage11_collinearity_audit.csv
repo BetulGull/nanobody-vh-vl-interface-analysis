@@ -1,0 +1,10 @@
+model_set,predictor,VIF,condition_number,N
+Model1A_length_rho_FR2,cdr3_sequence_length,3.4114986411746853,180.05287211604164,533
+Model1A_length_rho_FR2,cdr3_rho,2.7140791675096327,180.05287211604164,533
+Model1A_length_rho_FR2,FR2_CDR3_Dis,2.9946310436812724,180.05287211604164,533
+Model1B_compactness_FR2,cdr3_compactness,2.1483115957746692,97.91352011556724,533
+Model1B_compactness_FR2,FR2_CDR3_Dis,2.148311595774669,97.91352011556724,533
+shielding_BSA_pair,shielding_fraction,15.503621785905736,26287.336949505483,533
+shielding_BSA_pair,nonadj_BSA_pair_total,15.503621785905736,26287.336949505483,533
+Hintrinsic_Hnative,H_intrinsic_binary_mean_KD,2.0911169042003044,12.127141995844871,533
+Hintrinsic_Hnative,H_native_full_interface_sasa_weighted_mean_KD,2.0911169042003035,12.127141995844871,533

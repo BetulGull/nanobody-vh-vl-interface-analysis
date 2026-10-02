@@ -1,0 +1,19 @@
+Figure 5. Former-interface hydrophobic surface: VHH versus conventional VH.
+
+(A) Former-interface PSH (former_interface_vicinity_PSH, frozen Stage-8 Raybould-style patch score) cohort distributions, VHH (N=533) vs conventional VH (N=1429). Solid vertical lines mark each group's median PSH; dashed lines mark each group's 95th-percentile PSH -- these four values correspond exactly to the structural exemplars in Panels C/D (95th percentile) and F/G (median).
+
+(B) Native paired VH-VL structural context (conventional-Fv exemplar), showing the empirically derived former VH-VL interface (orange) and VL (pink, translucent).
+
+(C/D) Molecular surfaces of the structures nearest each group's 95th-percentile PSH (VHH: pdb_00008f6v, PSH=96.5; conventional VH: pdb_00006wo3, PSH=113.6), colored by normalized per-residue Kyte-Doolittle hydropathy (frozen Stage-8 scale, 1.00=hydrophilic to 2.00=hydrophobic) restricted to the exposed former-interface vicinity; all other surface white. Deterministic selection: nearest-to-95th-percentile among coverage>=0.90 structures, documented in Figure5_exemplars.csv.
+
+(E) Largest connected hydrophobic surface patch (black) for the SAME two structures shown in C/D (4.0 A heavy-atom connectivity threshold, exposed hydrophobic vicinity residues; src/qc/stage8_patch_topology.py, frozen, unmodified).
+
+(F/G) Same rendering method as C/D, applied to the structures nearest each group's MEDIAN PSH (VHH: pdb_00006jb2, PSH=76.0; conventional VH: pdb_00004k2u, PSH=84.7) -- illustrating the typical center of each cohort's distribution, not the high-PSH tail.
+
+(H) Largest connected hydrophobic patch for the SAME two structures shown in F/G, identical definition to Panel E.
+
+Color represents normalized residue hydropathy, NOT the PSH score itself (PSH is a pairwise spatial quantity, not a per-residue color). Black in Panels E/H represents the largest connected hydrophobic patch, not an outline. Conventional-VH coordinates are the native paired VH-VL structure; VL is omitted only from the surface-rendering calculation (never remodeled or treated as an experimentally isolated domain) -- the full VH+VL coordinate file is retained for provenance and used for Panel B. All four exemplars (C/D/F/G) were selected by a deterministic nearest-to-target-quantile rule, predeclared before any rendering, documented in Figure5_exemplars.csv and figure5_exemplar_selection_audit.md; none were chosen by visual appearance.
+
+Cohort-level evidence for any VHH-vs-conventional-VH difference comes from Panel A and the frozen Stage-8 statistics, not from any single structural exemplar (C/D/F/G/H illustrate predetermined points in those distributions and do not by themselves establish a cohort-wide difference). No solubility claim is made.
+
+Rendering method: PyMOL molecular surfaces, adapted from the visual logic of Raybould et al. 2019 (PNAS) Figure 2, applied here to this project's empirically derived former VH-VL interface rather than Raybould's CDR-vicinity target.

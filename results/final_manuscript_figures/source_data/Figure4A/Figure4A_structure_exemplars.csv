@@ -1,0 +1,3 @@
+group,INSTANCE,selection_metric,target_value_median,actual_value,distance_from_target,resolution,coverage,tie_break,n_eligible
+VHH,pdb_00008qf4-E,fraction_15pos_contacted,0.4666666666666667,0.4666666666666667,0.0,1.02,1.0,lowest resolution then INSTANCE alphabetical,307
+VH,pdb_00009f1i-H-L,fraction_15pos_contacted,0.2666666666666666,0.2666666666666666,0.0,1.38,1.0,lowest resolution then INSTANCE alphabetical,454

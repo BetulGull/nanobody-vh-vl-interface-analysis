@@ -1,0 +1,33 @@
+{
+  "total_rows": 4931,
+  "sdh_rows": 1597,
+  "fab_rows": 2798,
+  "fv_rows": 536,
+  "sdh_classification_counts": {
+    "natural_camelid_candidate": 1419,
+    "human_sdVH_candidate": 91,
+    "synthetic_or_de_novo_candidate": 61,
+    "uncertain_sdH": 21,
+    "engineered_or_humanized_camelid_candidate": 3,
+    "other_noncamelid_sdH": 2
+  },
+  "primary_vhh_candidate_count": 1419,
+  "fv_construct_counts": {
+    "conventional": 294,
+    "SCFV": 223,
+    "DIABODY": 17,
+    "DVD": 1,
+    "CODV": 1
+  },
+  "fab_construct_counts": {
+    "conventional": 2798
+  },
+  "primary_paired_candidate_overall": 3092,
+  "primary_paired_candidate_fab": 2798,
+  "primary_paired_candidate_fv": 294,
+  "unique_pdb_overall": 2734,
+  "unique_sabdab_id_overall": 2230,
+  "n_rfactor_missing_overall": 5,
+  "n_rfree_missing_overall": 24,
+  "duplicate_archive_rows_with_flag": 1392
+}

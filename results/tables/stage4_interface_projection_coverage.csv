@@ -1,0 +1,5 @@
+,primary_interface_position_coverage,primary_interface_position_coverage,primary_interface_position_coverage,primary_interface_position_coverage,primary_interface_position_coverage,primary_interface_position_coverage,primary_interface_position_coverage,primary_interface_position_coverage,primary_interface_coordinate_coverage_given_present,primary_interface_coordinate_coverage_given_present,primary_interface_coordinate_coverage_given_present,primary_interface_coordinate_coverage_given_present,primary_interface_coordinate_coverage_given_present,primary_interface_coordinate_coverage_given_present,primary_interface_coordinate_coverage_given_present,primary_interface_coordinate_coverage_given_present
+,count,mean,std,min,25%,50%,75%,max,count,mean,std,min,25%,50%,75%,max
+group,,,,,,,,,,,,,,,,
+VH,1429.0,0.9003548935319404,0.09653456899252112,0.5714285714285714,0.8214285714285714,0.9285714285714286,1.0,1.0,1429.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0
+VHH,533.0,0.9373492361297239,0.09591154857612748,0.6071428571428571,0.8928571428571429,1.0,1.0,1.0,533.0,0.9994527829893685,0.006239149861794864,0.8928571428571429,1.0,1.0,1.0,1.0

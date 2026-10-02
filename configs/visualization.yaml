@@ -1,0 +1,294 @@
+# Project-wide Visualization Standard
+# Applied from Stage 1 through all subsequent structural analyses
+
+project_name: "VHH Structural Mechanistics — Solubility Without VL"
+version: "1.0.0"
+last_updated: "2026-09-01"
+
+# ==================================================
+# SEMANTIC COLOR PALETTE
+# ==================================================
+# Inspired by Gordon et al. (2023) Figure color scheme for Ig superfamily domains
+# Must be used consistently across all project figures
+
+colors:
+  semantic:
+    vhh_sdab:
+      hex: "#4D69B2"
+      rgb: [77, 105, 178]
+      name: "Gordon VHH blue"
+      usage: "VHH / sdAb / single-domain antibody primary color"
+
+    vhh_sdab_light:
+      hex: "#7D92C9"
+      rgb: [125, 146, 201]
+      name: "Gordon VHH light blue"
+      usage: "VHH secondary / background / 2nd series"
+
+    conventional_antibody:
+      hex: "#EF7F7E"
+      rgb: [239, 127, 126]
+      name: "Gordon antibody pink"
+      usage: "conventional Fab / full-length antibody primary"
+
+    conventional_antibody_light:
+      hex: "#F4A5A8"
+      rgb: [244, 165, 168]
+      name: "Gordon antibody light pink"
+      usage: "conventional antibody secondary / 2nd series"
+
+    conventional_vh:
+      hex: "#8670B1"
+      rgb: [134, 112, 177]
+      name: "Gordon VH purple"
+      usage: "conventional VH from paired structures"
+
+    vl_domain:
+      hex: "#EF7F7E"  # same as conventional antibody
+      rgb: [239, 127, 126]
+      name: "Gordon VL pink"
+      usage: "conventional light chain VL"
+
+  annotation:
+    protein_antigen:
+      hex: "#6BAA63"
+      rgb: [107, 170, 99]
+      name: "restrained green"
+      usage: "protein antigen / target"
+
+    cdr3_mechanistic:
+      hex: "#00BCD4"
+      rgb: [0, 188, 212]
+      name: "cyan / teal"
+      usage: "CDR3 shielding focus / mechanistic highlight"
+
+    empirical_interface:
+      hex: "#FFB300"
+      rgb: [255, 179, 0]
+      name: "yellow-orange"
+      usage: "empirical former VH–VL interface"
+
+    missing_excluded:
+      hex: "#CCCCCC"
+      rgb: [204, 204, 204]
+      name: "neutral grey"
+      usage: "missing data / excluded / reference category"
+
+  quantitative_scales:
+    hydrophobic_exposure:
+      name: "yellow → orange → red"
+      description: "Quantitative hydrophobic surface exposure (ΔSASA or hydrophobic burden)"
+      colormap_type: "sequential"
+      low: "#FFFFCC"  # pale yellow
+      mid: "#FF9933"  # orange
+      high: "#CC0000"  # red
+
+    electrostatic_positive:
+      hex: "#0051BA"
+      rgb: [0, 81, 186]
+      name: "electrostatic positive blue"
+      usage: "APBS positive potential only — NOT CONFUSED with VHH blue"
+
+    electrostatic_negative:
+      hex: "#E63946"
+      rgb: [230, 57, 70]
+      name: "electrostatic negative red"
+      usage: "APBS negative potential"
+
+# ==================================================
+# FIGURE STANDARDS
+# ==================================================
+
+figure_standards:
+  resolution:
+    static_png: "300 dpi minimum"
+    static_pdf: "vector format"
+    static_svg: "vector format"
+
+  background:
+    color: "white"
+
+  typography:
+    axis_labels: "sans-serif, readable at 6pt printed"
+    legend: "sans-serif, consistent across figures"
+    title: "sans-serif, bold, descriptive"
+
+  plot_design:
+    - "Remove chart junk and decorative styles"
+    - "Do not truncate axes without explicit justification"
+    - "Always show N (effective sample size) in labels or legend"
+    - "Show distributions, not just means, when relevant"
+    - "Use transparency or hexbin for large N scatter plots"
+    - "Include confidence intervals or effect sizes when appropriate"
+
+  category_imbalance:
+    - "Use log scale if needed"
+    - "Use inset plot or split panel for rare categories"
+    - "Explicitly annotate tiny categories (CODV, DVD, etc.)"
+    - "Never allow large categories to visually erase small ones"
+
+  required_exports:
+    - "PNG at 300 dpi"
+    - "SVG"
+    - "PDF when straightforward"
+
+# ==================================================
+# FIGURE HIERARCHY AND LOCATIONS
+# ==================================================
+
+figure_locations:
+  stage1:
+    qc: "results/figures/stage1/qc/"
+    main: "results/figures/stage1/main/"
+    supplementary: "results/figures/stage1/supplementary/"
+
+  stage2_future:
+    qc: "results/figures/stage2/qc/"
+    main: "results/figures/stage2/main/"
+    supplementary: "results/figures/stage2/supplementary/"
+
+  structures_future:
+    static: "results/structures/static/"
+    interactive: "results/structures/interactive/"
+    scripts: "results/structures/scripts/"
+
+# ==================================================
+# FUTURE 3D MOLECULAR VISUALIZATION
+# ==================================================
+
+molecular_visualization:
+  static_requirements:
+    format: "PNG or PDF"
+    resolution: "300 dpi"
+    labeling: "PDB, INSTANCE, SABDAB_ID, chains, cohort"
+    background: "white"
+    stereochemistry: "correct"
+
+  interactive_requirements:
+    technology: "py3Dmol / 3Dmol.js standalone HTML"
+    capabilities:
+      - "rotation"
+      - "zoom"
+      - "residue inspection"
+      - "chain selection"
+    labeling: "clear PDB/INSTANCE/SABDAB_ID in title"
+    reproducibility: "session file or regeneration script preserved"
+
+  representative_selection_policy:
+    basis: "reproducible quantitative criteria, not visual cherry-picking"
+    examples:
+      - "median metric value"
+      - "25th percentile"
+      - "75th percentile"
+      - "high shielding"
+      - "low shielding"
+      - "matched conventional VH"
+    documentation: "results/structures/representative_selection.csv"
+
+  stage2_3d_examples_required:
+    - "VHH + protein antigen complex (valid)"
+    - "paired VH–VL + protein antigen complex (valid)"
+    - "QC failure classes if present (invalid examples)"
+
+# ==================================================
+# PROVENANCE AND REPRODUCIBILITY
+# ==================================================
+
+provenance:
+  required_per_figure:
+    - "source_script"
+    - "input_table"
+    - "filters_applied"
+    - "variables_shown"
+    - "sample_size"
+    - "random_seed (if applicable)"
+
+  never_do:
+    - "manually edit scientific values"
+    - "hard-code values derived from analysis"
+    - "use different colors for same semantic concept across figures"
+    - "cherry-pick structures without documented selection criterion"
+
+  always_do:
+    - "load colors from this central config"
+    - "programmatically generate annotations from audited tables"
+    - "validate figure outputs exist and are readable"
+    - "include sample sizes in human-facing labels"
+
+# ==================================================
+# STAGE-SPECIFIC VISUALIZATION REQUIREMENTS
+# ==================================================
+
+stage_requirements:
+  stage1:
+    visualization_decision: "REQUIRED (Stage 1 is a metadata audit; curation flow and classification distributions are core project outputs)"
+    generated_figures: 8
+    pass_criteria:
+      - "All PNG files exist and are readable"
+      - "All SVG files exist and are valid"
+      - "Figure manifest complete and verifiable"
+      - "Sample sizes shown"
+      - "Distributions shown where relevant"
+      - "Colors from central config used consistently"
+      - "Figure roles assigned (MAIN/SUPPLEMENTARY/QC_ONLY)"
+    overall_pass: "STAGE 1 VISUALIZATION STATUS: PASS"
+
+  stage2_and_beyond:
+    visualization_decision: "CASE-BY-CASE (see scientific visualization gate below)"
+    pass_criteria:
+      - "Figure generated ONLY if it satisfies the scientific visualization gate"
+      - "Each generated figure has a documented scientific question"
+      - "Figure role (MAIN/SUPPLEMENTARY/QC_ONLY) assigned"
+      - "3D structures generated only when spatially central to interpretation"
+      - "No minimum figure count per stage"
+    no_arbitrary_figures: "True (do not generate plots merely because a CSV exists)"
+
+# ==================================================
+# SCIENTIFIC VISUALIZATION GATE (Stage 2+)
+# ==================================================
+# From Stage 2 onward, generate a figure ONLY when at least one is true:
+#
+# 1. Result directly addresses the central mechanistic question
+#    (e.g., VHH shielding distribution vs. conventional VH)
+#
+# 2. Major dataset/QC decision materially changes scientific cohort
+#    and is much clearer visually than in tabular form
+#    (e.g., coordinate completeness causes cohort reduction)
+#
+# 3. Quantity is conventionally interpreted as distribution/relationship/
+#    spatial pattern/molecular surface in relevant literature
+#    (e.g., CDR3 geometry, electrostatic surfaces)
+#
+# 4. Representative 3D molecular view materially improves structural
+#    interpretation (empirical interface, CDR3 shielding, packing)
+#
+# Otherwise: keep result as table/audit only.
+#
+# NO FIGURE QUOTA:
+# - A stage may legitimately produce 0, 1, or many figures.
+# - Do not automatically visualize: missingness, species counts,
+#   software checks, intermediate metrics, every exclusion reason.
+# - Do not generate plots merely because a CSV exists.
+
+scientific_visualization_gate:
+  applies_from: "Stage 2+"
+  no_arbitrary_figures: "True (avoid visualization for visualization's sake)"
+  table_is_sufficient: "Yes, when scientific interpretation does not require spatial/distributional view"
+  minimum_figures_per_stage: "Zero (no quota)"
+
+# ==================================================
+# VALIDATION CHECKLIST
+# ==================================================
+
+validation:
+  before_final_pass:
+    - "Verify every required PNG exists"
+    - "Verify every PNG dimensions nonzero"
+    - "Verify every SVG exists and is valid XML"
+    - "Verify figure_manifest.csv exists and is complete"
+    - "Verify source_table column points to files that exist"
+    - "Verify sample counts used match audited data"
+    - "Verify no duplicate FAB archive confusion in counts"
+    - "Verify semantic colors loaded from central config"
+    - "Verify human-readability (no truncated labels, visible categories)"
+    - "Verify axis labels, titles, legends are clear"

@@ -1,0 +1,14 @@
+result_id,tier,wording
+R1,OBSERVED+ASSOCIATED,"VHH former-interface sequence chemistry differs from conventional VH (statistical association, structurally observed)"
+R2,OBSERVED+ASSOCIATED,Native exposed former-interface chemistry differs between VHH_NATIVE and VH_WITHOUT_VL_GEOMETRIC
+R3,ASSOCIATED,Intrinsic sequence chemistry is strongly associated with native exposed surface chemistry
+R4,ASSOCIATED,Shielding retains an independent association with native surface chemistry after adjustment
+R5,ASSOCIATED,"CDR3 geometry descriptors are independently associated with shielding, jointly"
+R6,CONSISTENT_WITH (not separable),Shielding and packing are consistent with one coupled geometric-accommodation process; their independent contributions cannot be reliably separated
+R7,OBSERVED+ASSOCIATED,VHH shows a distinct hydrophobic patch phenotype relative to conventional VH
+R8,OBSERVED,VHH former-interface electrostatic potential magnitude differs from VH in both positive and negative components (not formally adjusted-tested)
+R9,OBSERVED+ASSOCIATED,VHH shows greater framework antigen-contact participation than conventional VH
+R10,OBSERVED+ASSOCIATED,VHH antigen engagement is more CDR3-dominated than conventional VH
+R11,OBSERVED+ASSOCIATED,The former interface remains antigen-accessible in a majority of VHH structures
+R12,ASSOCIATED (unadjusted) / NOT_SUPPORTED (as independent adjusted effect),The unadjusted shielding-engagement relationship is real; an independent shielding effect after CDR3-geometry adjustment is NOT statistically supported
+general,NOT_SUPPORTED,"Higher experimental solubility, higher thermodynamic stability, lower experimental aggregation, higher binding affinity, higher biological activity, and any causal molecular pathway -- none of these are claimed or demonstrated anywhere in this project"

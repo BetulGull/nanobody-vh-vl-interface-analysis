@@ -1,0 +1,4 @@
+source_cohort,n_rows,unique_PDB,unique_SABDAB_ID,n_xray,n_resolution_le_3,n_xray_and_resolution_le_3,n_resolution_missing,n_rfactor_missing,n_rfree_missing
+SD-H,1597,778,654,1597,1597,1597,0,1,1
+FAB,2798,1730,1360,2798,2798,2798,0,4,15
+FV,536,290,245,536,536,536,0,0,8

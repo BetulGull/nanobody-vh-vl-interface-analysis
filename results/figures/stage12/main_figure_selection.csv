@@ -1,0 +1,27 @@
+source_stage,source_figure,scientific_question,main_or_supplementary,retain,merge_into_multiplanel,reason,redundant_with,final_figure_number_candidate
+3,FIG_S3_01,Empirical former VH-VL interface definition,main,True,False,Defines the 28-position empirical interface -- foundational to entire mechanism,,1
+3,FIG_S3_02,Interface threshold sensitivity,supplementary,True,False,"Method-validation sensitivity, not central narrative",,
+4,FIG_S4_01,VHH vs VH sequence chemistry at former interface,main,True,True,Direct evidence for Claim B/R1,stage11 fig2 (formal group effect),2
+4,FIG_S4_02,Sequence divergence detail,supplementary,True,False,Secondary detail,,
+4,FIG_S4_03,Distribution detail,supplementary,True,False,Optional distributional detail,,
+5,FIG_S5_01,"Native exposed surface chemistry, VHH vs VH",main,True,True,Direct evidence for Claim C/R2,,2
+5,FIG_S5_02,Sequence-to-surface mechanism,main,True,True,Directly supports Module 3,,2
+5,FIG_S5_03,Three-state (native/no-VL/paired) comparison,supplementary,True,False,Optional additional structural-state detail,,
+6,FIG_S6_01,CDR3 shielding magnitude,main,True,True,Direct evidence for Claim D,,3
+6,FIG_S6_02,Shielding + Gordon/Zhang geometry,main,True,True,Direct evidence for Claim E component (geometry),,3
+6,FIG_S6_03,Spatial shielding mechanism detail,supplementary,True,False,"Spatial/mechanistic detail, secondary",,
+7,stage7_fig1_packing_vs_shielding,CDR3-target packing vs shielding correlation,main,True,True,"Direct evidence for Claim E (coupling), r=0.97",overlaps conceptually with stage11 collinearity result R6,3
+7,stage7_fig2_position_pair_heatmap,CDR3 x target position-pair interaction frequency,supplementary,True,False,"Fine-grained residue-pair detail, not central narrative",,
+7,stage7_fig3_composition_by_quartile,Interaction composition by shielding quartile,supplementary,True,False,Secondary compositional detail,,
+8,fig1 (hydrophobic patch burden),"Former-interface PSH, VHH vs VH",main,True,True,Direct evidence for Claim F/R7,,4
+8,fig2 (charge patches),"PPC/PNC, VHH vs VH",supplementary,True,False,Not FDR-significant in Stage 11 secondary family -- demoted from main,,
+8,fig3 (patch topology),Project-specific hydrophobic patch topology,supplementary,True,False,"Explicitly project-specific, not TAP/TNP -- supplementary by original Stage-8 role",fig1 (largest patch overlaps),
+8,fig4 (APBS potential),"APBS positive/negative components, VHH vs VH",main,True,True,"Direct evidence for Claim G, important closure-corrected finding",,4
+9,fig1 (framework contribution),"Framework antigen-contact fraction, VHH vs VH",main,True,True,Direct evidence for Claim H/R9,,5
+9,fig2 (region composition),Paratope region composition,supplementary,True,False,Compositional detail supporting fig1,,
+9,fig3 (former-interface position map),Position-level VL-burial vs antigen-engagement integration,main,True,False,"High-value integration figure, refined further in Stage 12 fig (Section 21)",stage12 position-level figure (refined version),6
+9,fig4 (shielding vs engagement),"Shielding vs 15-position engagement, VHH only",main,False,False,SUPERSEDED by Stage-11 adjusted analysis -- Stage-9 unadjusted-only version is misleading alone without the Stage-11 attenuation context; replaced by stage12 fig3,stage11 fig3 / stage12 final effect-evidence figure,
+11,fig1 (primary adjusted effects),Formal adjusted mechanistic effects,main,True,False,"Central formal-inference result, includes the critical attenuation finding",,7
+11,fig2 (group effects),VHH vs conventional formal group effects,main,True,False,Formal confirmation of all 7 primary group differences,,7
+11,fig3 (shielding-function adjusted),"Shielding vs engagement, raw+adjusted",main,True,False,"Directly shows the attenuation, replaces Stage-9 fig4",stage9 fig4 (superseded),7
+11,fig4 (robustness map),Mechanism robustness across sensitivities,supplementary,True,False,Technical robustness control,,

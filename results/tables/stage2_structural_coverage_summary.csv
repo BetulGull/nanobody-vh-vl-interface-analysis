@@ -1,0 +1,3 @@
+cohort,n_input,n_structure_resolved,n_hchain_found,n_h_cdr_complete,n_has_antigen,n_gordon_contact,n_core_structure_pass,n_gordon_complex_pass
+VHH,1458,1458,1458,1380,1411,1410,1380,1342
+PAIRED,3092,3092,3092,3040,2969,2966,2997,2879

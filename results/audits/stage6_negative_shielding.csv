@@ -1,0 +1,3 @@
+level,n_total_residue_observations,n_delta_negative,min_delta,n_lt_minus_0.1,n_lt_minus_0.5,n_lt_minus_1.0,n_total_structures
+residue,7987.0,0,0.0,0,0,0,
+structure,,0,69.16569652968815,0,0,0,533.0

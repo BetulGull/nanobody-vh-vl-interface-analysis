@@ -1,0 +1,12 @@
+normalized_species,species_evidence_field,camelid_species_flag,n
+Lama glama,heavy_taxid,True,790
+Vicugna pacos,heavy_taxid,True,476
+Camelus dromedarius,heavy_taxid,True,93
+Homo sapiens,heavy_taxid,False,91
+synthetic construct,heavy_taxid,False,61
+Camelidae (family-level),heavy_taxid,True,33
+Camelus bactrianus,heavy_taxid,True,25
+Camelidae mixed library (pooled camelid donors),heavy_taxid,True,18
+Lama (genus-level),heavy_taxid,True,3
+escherichia coli,heavy_taxid,False,3
+mus musculus,heavy_taxid,False,2

@@ -1,0 +1,7 @@
+feature,feature_key,important_positions,n_local_blocks,blocks
+Sequence divergence,seq_divergence,40;42;49;50;52,2,"38,39,40,41,42,43,44 | 47,48,49,50,51,52,53,54"
+Hydropathy shift,hydropathy_shift,42;49;50;52;115,3,"40,41,42,43,44 | 47,48,49,50,51,52,53,54 | 113,114,115,116,117"
+Charge shift,charge_shift,49;50;69;107;116,4,"47,48,49,50,51,52 | 67,68,69,70,71 | 105,106,107,108,109 | 114,115,116,117,118"
+Native exposure,native_exposure,49;50;52;112;112B,2,"47,48,49,50,51,52,53,54 | 111,111A,112,112A,112B,113,114"
+CDR3 shielding (VHH only),cdr3_shielding,42;52;55;66;118,4,"40,41,42,43,44 | 50,51,52,53,54,55,56,57 | 64,65,66,67,68 | 116,117,118,119,120"
+Antigen engagement,antigen_engagement,42;49;50;52;118,3,"40,41,42,43,44 | 47,48,49,50,51,52,53,54 | 116,117,118,119,120"

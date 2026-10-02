@@ -1,0 +1,1 @@
+sequence_group_id,SABDAB_ID,INSTANCE,PDB,Hchain,imgt_position,imgt_number,insertion_code,region,amino_acid,kyte_doolittle,interface_frequency_5,mean_delta_sasa_stage3,median_delta_sasa_stage3,sasa_native,sasa_noCDR3,delta_sasa_shield,positiveKD,coordinate_observed,chemistry_evaluable,noncanonical_flag,sasa_warning

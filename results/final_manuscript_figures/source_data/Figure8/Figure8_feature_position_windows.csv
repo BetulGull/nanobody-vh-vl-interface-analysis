@@ -1,0 +1,111 @@
+feature,feature_key,block_index,IMGT_position,region,role,tetrad
+Sequence divergence,seq_divergence,0,38,CDR1,context,False
+Sequence divergence,seq_divergence,0,39,FR2,context,False
+Sequence divergence,seq_divergence,0,40,FR2,important,False
+Sequence divergence,seq_divergence,0,41,FR2,context,False
+Sequence divergence,seq_divergence,0,42,FR2,important,True
+Sequence divergence,seq_divergence,0,43,FR2,context,False
+Sequence divergence,seq_divergence,0,44,FR2,context,False
+Sequence divergence,seq_divergence,1,47,FR2,context,False
+Sequence divergence,seq_divergence,1,48,FR2,context,False
+Sequence divergence,seq_divergence,1,49,FR2,important,True
+Sequence divergence,seq_divergence,1,50,FR2,important,True
+Sequence divergence,seq_divergence,1,51,FR2,context,False
+Sequence divergence,seq_divergence,1,52,FR2,important,True
+Sequence divergence,seq_divergence,1,53,FR2,context,False
+Sequence divergence,seq_divergence,1,54,FR2,context,False
+Hydropathy shift,hydropathy_shift,0,40,FR2,context,False
+Hydropathy shift,hydropathy_shift,0,41,FR2,context,False
+Hydropathy shift,hydropathy_shift,0,42,FR2,important,True
+Hydropathy shift,hydropathy_shift,0,43,FR2,context,False
+Hydropathy shift,hydropathy_shift,0,44,FR2,context,False
+Hydropathy shift,hydropathy_shift,1,47,FR2,context,False
+Hydropathy shift,hydropathy_shift,1,48,FR2,context,False
+Hydropathy shift,hydropathy_shift,1,49,FR2,important,True
+Hydropathy shift,hydropathy_shift,1,50,FR2,important,True
+Hydropathy shift,hydropathy_shift,1,51,FR2,context,False
+Hydropathy shift,hydropathy_shift,1,52,FR2,important,True
+Hydropathy shift,hydropathy_shift,1,53,FR2,context,False
+Hydropathy shift,hydropathy_shift,1,54,FR2,context,False
+Hydropathy shift,hydropathy_shift,2,113,CDR3,context,False
+Hydropathy shift,hydropathy_shift,2,114,CDR3,context,False
+Hydropathy shift,hydropathy_shift,2,115,CDR3,important,False
+Hydropathy shift,hydropathy_shift,2,116,CDR3,context,False
+Hydropathy shift,hydropathy_shift,2,117,CDR3,context,False
+Charge shift,charge_shift,0,47,FR2,context,False
+Charge shift,charge_shift,0,48,FR2,context,False
+Charge shift,charge_shift,0,49,FR2,important,True
+Charge shift,charge_shift,0,50,FR2,important,True
+Charge shift,charge_shift,0,51,FR2,context,False
+Charge shift,charge_shift,0,52,FR2,context,True
+Charge shift,charge_shift,1,67,FR3,context,False
+Charge shift,charge_shift,1,68,FR3,context,False
+Charge shift,charge_shift,1,69,FR3,important,False
+Charge shift,charge_shift,1,70,FR3,context,False
+Charge shift,charge_shift,1,71,FR3,context,False
+Charge shift,charge_shift,2,105,CDR3,context,False
+Charge shift,charge_shift,2,106,CDR3,context,False
+Charge shift,charge_shift,2,107,CDR3,important,False
+Charge shift,charge_shift,2,108,CDR3,context,False
+Charge shift,charge_shift,2,109,CDR3,context,False
+Charge shift,charge_shift,3,114,CDR3,context,False
+Charge shift,charge_shift,3,115,CDR3,context,False
+Charge shift,charge_shift,3,116,CDR3,important,False
+Charge shift,charge_shift,3,117,CDR3,context,False
+Charge shift,charge_shift,3,118,FR4,context,False
+Native exposure,native_exposure,0,47,FR2,context,False
+Native exposure,native_exposure,0,48,FR2,context,False
+Native exposure,native_exposure,0,49,FR2,important,True
+Native exposure,native_exposure,0,50,FR2,important,True
+Native exposure,native_exposure,0,51,FR2,context,False
+Native exposure,native_exposure,0,52,FR2,important,True
+Native exposure,native_exposure,0,53,FR2,context,False
+Native exposure,native_exposure,0,54,FR2,context,False
+Native exposure,native_exposure,1,111,CDR3,context,False
+Native exposure,native_exposure,1,111A,CDR3,context,False
+Native exposure,native_exposure,1,112,CDR3,important,False
+Native exposure,native_exposure,1,112A,CDR3,context,False
+Native exposure,native_exposure,1,112B,CDR3,important,False
+Native exposure,native_exposure,1,113,CDR3,context,False
+Native exposure,native_exposure,1,114,CDR3,context,False
+CDR3 shielding (VHH only),cdr3_shielding,0,40,FR2,context,False
+CDR3 shielding (VHH only),cdr3_shielding,0,41,FR2,context,False
+CDR3 shielding (VHH only),cdr3_shielding,0,42,FR2,important,True
+CDR3 shielding (VHH only),cdr3_shielding,0,43,FR2,context,False
+CDR3 shielding (VHH only),cdr3_shielding,0,44,FR2,context,False
+CDR3 shielding (VHH only),cdr3_shielding,1,50,FR2,context,True
+CDR3 shielding (VHH only),cdr3_shielding,1,51,FR2,context,False
+CDR3 shielding (VHH only),cdr3_shielding,1,52,FR2,important,True
+CDR3 shielding (VHH only),cdr3_shielding,1,53,FR2,context,False
+CDR3 shielding (VHH only),cdr3_shielding,1,54,FR2,context,False
+CDR3 shielding (VHH only),cdr3_shielding,1,55,FR2,important,False
+CDR3 shielding (VHH only),cdr3_shielding,1,56,CDR2,context,False
+CDR3 shielding (VHH only),cdr3_shielding,1,57,CDR2,context,False
+CDR3 shielding (VHH only),cdr3_shielding,2,64,CDR2,context,False
+CDR3 shielding (VHH only),cdr3_shielding,2,65,CDR2,context,False
+CDR3 shielding (VHH only),cdr3_shielding,2,66,FR3,important,False
+CDR3 shielding (VHH only),cdr3_shielding,2,67,FR3,context,False
+CDR3 shielding (VHH only),cdr3_shielding,2,68,FR3,context,False
+CDR3 shielding (VHH only),cdr3_shielding,3,116,CDR3,context,False
+CDR3 shielding (VHH only),cdr3_shielding,3,117,CDR3,context,False
+CDR3 shielding (VHH only),cdr3_shielding,3,118,FR4,important,False
+CDR3 shielding (VHH only),cdr3_shielding,3,119,FR4,context,False
+CDR3 shielding (VHH only),cdr3_shielding,3,120,FR4,context,False
+Antigen engagement,antigen_engagement,0,40,FR2,context,False
+Antigen engagement,antigen_engagement,0,41,FR2,context,False
+Antigen engagement,antigen_engagement,0,42,FR2,important,True
+Antigen engagement,antigen_engagement,0,43,FR2,context,False
+Antigen engagement,antigen_engagement,0,44,FR2,context,False
+Antigen engagement,antigen_engagement,1,47,FR2,context,False
+Antigen engagement,antigen_engagement,1,48,FR2,context,False
+Antigen engagement,antigen_engagement,1,49,FR2,important,True
+Antigen engagement,antigen_engagement,1,50,FR2,important,True
+Antigen engagement,antigen_engagement,1,51,FR2,context,False
+Antigen engagement,antigen_engagement,1,52,FR2,important,True
+Antigen engagement,antigen_engagement,1,53,FR2,context,False
+Antigen engagement,antigen_engagement,1,54,FR2,context,False
+Antigen engagement,antigen_engagement,2,116,CDR3,context,False
+Antigen engagement,antigen_engagement,2,117,CDR3,context,False
+Antigen engagement,antigen_engagement,2,118,FR4,important,False
+Antigen engagement,antigen_engagement,2,119,FR4,context,False
+Antigen engagement,antigen_engagement,2,120,FR4,context,False

@@ -1,0 +1,23 @@
+[stage0] pwd / uname / sw_vers — machine identification
+[stage0] find/ls candidate staj locations -> PROJECT_ROOT=/Users/betulgul/Desktop/staj
+[stage0] sha256sum on all 6 .tgz archives
+[stage0] tar -tzf entry listing + extension breakdown per archive
+[stage0] python3 (system, read-only) sample extraction + entity_poly parsing for cohort identification
+[stage0] WebFetch RCSB entry API for 9NCD, 1AHW, 7PA9 (Fab vs Fab+Fc content verification)
+[stage0] mkdir -p full project directory tree under PROJECT_ROOT
+[stage0] python3 src/ingestion/safe_extract.py <archive> <dest> --log logs/extraction_conflicts.log --case_manifest data/metadata/extraction_manifest.tsv  (x6, incl. duplicate archive check)
+[stage0] removed redundant __casecollision3 files produced by re-extracting duplicate archive (151141), verified byte-identical to __casecollision2 first
+[stage0] command -v mamba/conda/micromamba -> micromamba 2.9.0 pre-existing, used
+[stage0] micromamba create -y -n vhh3d -c conda-forge -c bioconda python=3.11 numpy pandas scipy scikit-learn statsmodels matplotlib biopython gemmi pyarrow pyyaml tqdm joblib networkx pytest freesasa-python cd-hit dssp packaging requests rich
+[stage0] micromamba run -n vhh3d python -c "import ... ; print(__version__)" for every main package
+[stage0] micromamba run -n vhh3d cd-hit -h / mkdssp --version
+[stage0] micromamba run -n vhh3d pytest -v tests/test_environment.py -> 6 passed
+[stage0] micromamba create -y -n vhh-arpeggio -c conda-forge python=3.9 gemmi openbabel biopython
+[stage0] micromamba run -n vhh-arpeggio python -m pip install pdbe-arpeggio
+[stage0] micromamba run -n vhh-arpeggio pdbe-arpeggio -h / python -c "import arpeggio"
+[stage0] micromamba create -y -n vhh-elec -c conda-forge python=3.11 apbs pdb2pqr
+[stage0] micromamba run -n vhh-elec apbs --version / pdb2pqr --help
+[stage0] git clone https://github.com/oxpig/TNP.git external/TNP
+[stage0] docker --version -> 29.2.1 (availability check only, no install)
+[stage0] micromamba env export -n vhh3d/vhh-arpeggio/vhh-elec --no-builds > environment-*.yml
+[stage0] git init, .gitignore creation

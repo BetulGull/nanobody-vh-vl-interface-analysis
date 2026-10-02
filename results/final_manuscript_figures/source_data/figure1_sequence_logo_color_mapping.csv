@@ -1,0 +1,21 @@
+amino_acid,hex_color,reference,notes,confidence
+V,#CC8ABB,Gordon et al. 2023 Figure 13 visual palette,"large unambiguous glyph, IMGT position 2 (both panels)",high
+R,#4D69B1,Gordon et al. 2023 Figure 13 visual palette,"large unambiguous glyph, IMGT positions 42/50/118",high
+Y,#C51983,Gordon et al. 2023 Figure 13 visual palette,"large unambiguous glyph, IMGT positions 42/66/67",high
+W,#B8519D,Gordon et al. 2023 Figure 13 visual palette,"large unambiguous glyph, IMGT positions 52/55/118; distinguishable from Y (more purple, less pink)",high
+D,#E82024,Gordon et al. 2023 Figure 13 visual palette,"large unambiguous glyph, IMGT position 69 (dominant)",high
+G,#B4872E,Gordon et al. 2023 Figure 13 visual palette,"large unambiguous glyph, IMGT position 52 (panel B), 40",high
+A,#EB807F,Gordon et al. 2023 Figure 13 visual palette,"large unambiguous glyph, IMGT positions 40/55",high
+F,#EFA662,Gordon et al. 2023 Figure 13 visual palette,"large unambiguous glyph, IMGT positions 42/52 (panel A top), 50 (panel B)",high
+L,#90C63F,Gordon et al. 2023 Figure 13 visual palette,"large unambiguous glyph, IMGT positions 50/52",high
+S,#282870,Gordon et al. 2023 Figure 13 visual palette,"large unambiguous glyph, IMGT positions 40/55",high
+T,#75549D,Gordon et al. 2023 Figure 13 visual palette,"clear glyph, IMGT position 55",high
+N,#057F80,Gordon et al. 2023 Figure 13 visual palette,"clear glyph, IMGT positions 40/66",high
+E,#F07C53,Gordon et al. 2023 Figure 13 visual palette,"distinguishable orange-red band, IMGT position 69; close to F, verified as a separate cluster by k-means (delta E >20 in RGB)",medium
+M,#0F5B29,Gordon et al. 2023 Figure 13 visual palette,"dark green glyph identified at IMGT position 52 (panel A), sampled directly",medium
+C,#B22224,Gordon et al. 2023 Figure 13 visual palette,"dark brick-red oval glyph identified at IMGT position 55 (panel A); distinguishable from D (darker/more brown) but close -- lower confidence than the 12 ""high"" rows",medium
+K,#F8D50E,Gordon et al. 2023 Figure 13 visual palette,"thin minor band, bright yellow family observed near IMGT position 40/55 top-of-stack; exact letter identity not independently confirmed by glyph shape at this pixel resolution",low
+H,#86B3CB,Gordon et al. 2023 Figure 13 visual palette,"thin minor band, light steel-blue/cyan family observed at top of several stacks; exact letter identity not independently confirmed by glyph shape at this pixel resolution",low
+Q,#7C763C,Gordon et al. 2023 Figure 13 visual palette,"thin minor band, olive family observed near IMGT position 55; exact letter identity not independently confirmed by glyph shape at this pixel resolution",low
+I,#9B9B9B,Gordon et al. 2023 Figure 13 visual palette,"not independently confirmed in the extracted Gordon Figure 13 crops -- residue does not appear with enough pixel area at the 10 displayed IMGT positions to sample a confident color; placeholder grey used, NOT a Gordon-sourced value",unresolved
+P,#9B9B9B,Gordon et al. 2023 Figure 13 visual palette,"not independently confirmed in the extracted Gordon Figure 13 crops -- residue does not appear with enough pixel area at the 10 displayed IMGT positions to sample a confident color; placeholder grey used, NOT a Gordon-sourced value",unresolved

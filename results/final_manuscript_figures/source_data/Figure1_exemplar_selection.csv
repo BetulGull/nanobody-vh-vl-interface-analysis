@@ -1,0 +1,2 @@
+figure,panel,group,PDB,INSTANCE,sequence_group_id,selection_metric,target_quantile_or_value,actual_value,coverage,resolution,tie_break,selection_reason
+Figure1,A_B,VH,00007f7e,pdb_00007f7e-C-L,sabdab2_H02KJL0231,resolution,2.49,2.49,1.0,2.49,lowest resolution then SABDAB_ID alphabetical,nearest-to-median resolution among coverage==1.0 eligible VH representatives (typical native Fv)

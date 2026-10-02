@@ -1,0 +1,85 @@
+structure_id,group,IMGT_position,amino_acid,region,feature_membership,tetrad,mapped_successfully
+pdb_00006hjy-G,VHH,107,R,CDR3,Charge shift,False,True
+pdb_00006hjy-G,VHH,112,P,CDR3,Native exposure difference,False,True
+pdb_00006hjy-G,VHH,112B,L,CDR3,Native exposure difference,False,True
+pdb_00006hjy-G,VHH,115,Y,CDR3,Hydropathy shift,False,True
+pdb_00006hjy-G,VHH,116,G,CDR3,Charge shift,False,True
+pdb_00006hjy-G,VHH,118,W,FR4,Antigen engagement;CDR3 shielding (VHH only),False,True
+pdb_00006hjy-G,VHH,40,G,FR2,Sequence divergence,False,True
+pdb_00006hjy-G,VHH,42,F,FR2,Antigen engagement;CDR3 shielding (VHH only);Hydropathy shift;Sequence divergence,True,True
+pdb_00006hjy-G,VHH,49,E,FR2,Antigen engagement;Charge shift;Hydropathy shift;Native exposure difference;Sequence divergence,True,True
+pdb_00006hjy-G,VHH,50,R,FR2,Antigen engagement;Charge shift;Hydropathy shift;Native exposure difference;Sequence divergence,True,True
+pdb_00006hjy-G,VHH,52,F,FR2,Antigen engagement;CDR3 shielding (VHH only);Hydropathy shift;Native exposure difference;Sequence divergence,True,True
+pdb_00006hjy-G,VHH,55,T,FR2,CDR3 shielding (VHH only),False,True
+pdb_00006hjy-G,VHH,66,V,FR3,CDR3 shielding (VHH only),False,True
+pdb_00006hjy-G,VHH,69,D,FR3,Charge shift,False,True
+pdb_00006hjx-F,VHH,107,R,CDR3,Charge shift,False,True
+pdb_00006hjx-F,VHH,112,P,CDR3,Native exposure difference,False,True
+pdb_00006hjx-F,VHH,112B,L,CDR3,Native exposure difference,False,True
+pdb_00006hjx-F,VHH,115,Y,CDR3,Hydropathy shift,False,True
+pdb_00006hjx-F,VHH,116,G,CDR3,Charge shift,False,True
+pdb_00006hjx-F,VHH,118,W,FR4,Antigen engagement;CDR3 shielding (VHH only),False,True
+pdb_00006hjx-F,VHH,40,G,FR2,Sequence divergence,False,True
+pdb_00006hjx-F,VHH,42,F,FR2,Antigen engagement;CDR3 shielding (VHH only);Hydropathy shift;Sequence divergence,True,True
+pdb_00006hjx-F,VHH,49,E,FR2,Antigen engagement;Charge shift;Hydropathy shift;Native exposure difference;Sequence divergence,True,True
+pdb_00006hjx-F,VHH,50,R,FR2,Antigen engagement;Charge shift;Hydropathy shift;Native exposure difference;Sequence divergence,True,True
+pdb_00006hjx-F,VHH,52,F,FR2,Antigen engagement;CDR3 shielding (VHH only);Hydropathy shift;Native exposure difference;Sequence divergence,True,True
+pdb_00006hjx-F,VHH,55,T,FR2,CDR3 shielding (VHH only),False,True
+pdb_00006hjx-F,VHH,66,V,FR3,CDR3 shielding (VHH only),False,True
+pdb_00006hjx-F,VHH,69,D,FR3,Charge shift,False,True
+pdb_00008dqu-A,VHH,107,P,CDR3,Charge shift,False,True
+pdb_00008dqu-A,VHH,112,P,CDR3,Native exposure difference,False,True
+pdb_00008dqu-A,VHH,112B,T,CDR3,Native exposure difference,False,True
+pdb_00008dqu-A,VHH,115,F,CDR3,Hydropathy shift,False,True
+pdb_00008dqu-A,VHH,116,D,CDR3,Charge shift,False,True
+pdb_00008dqu-A,VHH,118,W,FR4,Antigen engagement;CDR3 shielding (VHH only),False,True
+pdb_00008dqu-A,VHH,40,G,FR2,Sequence divergence,False,True
+pdb_00008dqu-A,VHH,42,F,FR2,Antigen engagement;CDR3 shielding (VHH only);Hydropathy shift;Sequence divergence,True,True
+pdb_00008dqu-A,VHH,49,E,FR2,Antigen engagement;Charge shift;Hydropathy shift;Native exposure difference;Sequence divergence,True,True
+pdb_00008dqu-A,VHH,50,R,FR2,Antigen engagement;Charge shift;Hydropathy shift;Native exposure difference;Sequence divergence,True,True
+pdb_00008dqu-A,VHH,52,F,FR2,Antigen engagement;CDR3 shielding (VHH only);Hydropathy shift;Native exposure difference;Sequence divergence,True,True
+pdb_00008dqu-A,VHH,55,M,FR2,CDR3 shielding (VHH only),False,True
+pdb_00008dqu-A,VHH,66,D,FR3,CDR3 shielding (VHH only),False,True
+pdb_00008dqu-A,VHH,69,D,FR3,Charge shift,False,True
+pdb_00005ggv-H-L,VH,107,D,CDR3,Charge shift,False,True
+pdb_00005ggv-H-L,VH,112,Y,CDR3,Native exposure difference,False,True
+pdb_00005ggv-H-L,VH,112B,Y,CDR3,Native exposure difference,False,True
+pdb_00005ggv-H-L,VH,115,M,CDR3,Hydropathy shift,False,True
+pdb_00005ggv-H-L,VH,116,D,CDR3,Charge shift,False,True
+pdb_00005ggv-H-L,VH,118,W,FR4,Antigen engagement;CDR3 shielding (VHH only),False,True
+pdb_00005ggv-H-L,VH,40,H,FR2,Sequence divergence,False,True
+pdb_00005ggv-H-L,VH,42,V,FR2,Antigen engagement;CDR3 shielding (VHH only);Hydropathy shift;Sequence divergence,True,True
+pdb_00005ggv-H-L,VH,49,G,FR2,Antigen engagement;Charge shift;Hydropathy shift;Native exposure difference;Sequence divergence,True,True
+pdb_00005ggv-H-L,VH,50,L,FR2,Antigen engagement;Charge shift;Hydropathy shift;Native exposure difference;Sequence divergence,True,True
+pdb_00005ggv-H-L,VH,52,W,FR2,Antigen engagement;CDR3 shielding (VHH only);Hydropathy shift;Native exposure difference;Sequence divergence,True,True
+pdb_00005ggv-H-L,VH,55,V,FR2,CDR3 shielding (VHH only),False,True
+pdb_00005ggv-H-L,VH,66,Y,FR3,CDR3 shielding (VHH only),False,True
+pdb_00005ggv-H-L,VH,69,D,FR3,Charge shift,False,True
+pdb_00003wfd-H-L,VH,107,S,CDR3,Charge shift,False,True
+pdb_00003wfd-H-L,VH,112,N,CDR3,Native exposure difference,False,True
+pdb_00003wfd-H-L,VH,112B,V,CDR3,Native exposure difference,False,True
+pdb_00003wfd-H-L,VH,115,F,CDR3,Hydropathy shift,False,True
+pdb_00003wfd-H-L,VH,116,D,CDR3,Charge shift,False,True
+pdb_00003wfd-H-L,VH,118,W,FR4,Antigen engagement;CDR3 shielding (VHH only),False,True
+pdb_00003wfd-H-L,VH,40,H,FR2,Sequence divergence,False,True
+pdb_00003wfd-H-L,VH,42,V,FR2,Antigen engagement;CDR3 shielding (VHH only);Hydropathy shift;Sequence divergence,True,True
+pdb_00003wfd-H-L,VH,49,G,FR2,Antigen engagement;Charge shift;Hydropathy shift;Native exposure difference;Sequence divergence,True,True
+pdb_00003wfd-H-L,VH,50,L,FR2,Antigen engagement;Charge shift;Hydropathy shift;Native exposure difference;Sequence divergence,True,True
+pdb_00003wfd-H-L,VH,52,W,FR2,Antigen engagement;CDR3 shielding (VHH only);Hydropathy shift;Native exposure difference;Sequence divergence,True,True
+pdb_00003wfd-H-L,VH,55,A,FR2,CDR3 shielding (VHH only),False,True
+pdb_00003wfd-H-L,VH,66,S,FR3,CDR3 shielding (VHH only),False,True
+pdb_00003wfd-H-L,VH,69,Q,FR3,Charge shift,False,True
+pdb_00007l7d-H-L,VH,107,P,CDR3,Charge shift,False,True
+pdb_00007l7d-H-L,VH,112,N,CDR3,Native exposure difference,False,True
+pdb_00007l7d-H-L,VH,112B,S,CDR3,Native exposure difference,False,True
+pdb_00007l7d-H-L,VH,115,F,CDR3,Hydropathy shift,False,True
+pdb_00007l7d-H-L,VH,116,D,CDR3,Charge shift,False,True
+pdb_00007l7d-H-L,VH,118,W,FR4,Antigen engagement;CDR3 shielding (VHH only),False,True
+pdb_00007l7d-H-L,VH,40,Q,FR2,Sequence divergence,False,True
+pdb_00007l7d-H-L,VH,42,V,FR2,Antigen engagement;CDR3 shielding (VHH only);Hydropathy shift;Sequence divergence,True,True
+pdb_00007l7d-H-L,VH,49,R,FR2,Antigen engagement;Charge shift;Hydropathy shift;Native exposure difference;Sequence divergence,True,True
+pdb_00007l7d-H-L,VH,50,L,FR2,Antigen engagement;Charge shift;Hydropathy shift;Native exposure difference;Sequence divergence,True,True
+pdb_00007l7d-H-L,VH,52,W,FR2,Antigen engagement;CDR3 shielding (VHH only);Hydropathy shift;Native exposure difference;Sequence divergence,True,True
+pdb_00007l7d-H-L,VH,55,W,FR2,CDR3 shielding (VHH only),False,True
+pdb_00007l7d-H-L,VH,66,N,FR3,CDR3 shielding (VHH only),False,True
+pdb_00007l7d-H-L,VH,69,Q,FR3,Charge shift,False,True

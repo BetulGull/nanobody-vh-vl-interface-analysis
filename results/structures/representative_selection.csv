@@ -1,0 +1,3 @@
+category,instance,pdb,selection_rule,html_path
+VHH_representative,pdb_000010zo-A,pdb_000010zo,lexicographically smallest INSTANCE among primary_vhh_candidate_strict + qc_stage2_gordon_complex_pass,results/structures/interactive/vhh_example_pdb_000010zo_pdb_000010zo-A.html
+PAIRED_representative,pdb_000011ha-G-K,pdb_000011ha,lexicographically smallest INSTANCE among PAIRED cohort + qc_stage2_gordon_complex_pass,results/structures/interactive/paired_example_pdb_000011ha_pdb_000011ha-G-K.html

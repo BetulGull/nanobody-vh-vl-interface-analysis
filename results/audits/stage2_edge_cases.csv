@@ -1,0 +1,5 @@
+failure_reason,n_examples,n_sampled,all_inspected
+FAIL_H_CDR_INCOMPLETE,130,15,False
+NO_PROTEIN_ANTIGEN_IDENTIFIED,170,15,False
+NO_GORDON_CONTACT,4,4,True
+FAIL_L_CDR_INCOMPLETE,49,15,False

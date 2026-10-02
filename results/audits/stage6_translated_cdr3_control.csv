@@ -1,0 +1,7 @@
+INSTANCE,Hchain,n_shieldable_positions_compared,max_abs_diff_nocdr3_vs_translated,mean_abs_diff_nocdr3_vs_translated,control_pass
+pdb_00003k3q-A,A,15,0.0,0.0,True
+pdb_00009imx-C,C,12,0.0,0.0,True
+pdb_00006zbp-FFF,FFF,15,0.0,0.0,True
+pdb_00006ul6-B1,B1,15,0.0,0.0,True
+pdb_00008qf4-E,E,15,0.0,0.0,True
+pdb_00001zmy-A,A,15,0.0,0.0,True

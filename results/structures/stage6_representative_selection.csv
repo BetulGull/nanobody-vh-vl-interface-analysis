@@ -1,0 +1,2 @@
+INSTANCE,PDB,delta_sasa_shield,shielding_fraction,selection_rule
+pdb_00007z1d-FFF,pdb_00007z1d,273.1544030115115,0.23866011436868623,"closest to cohort medians (shielding_fraction, delta_sasa_shield), >=90% coord coverage, resolution tie-break"

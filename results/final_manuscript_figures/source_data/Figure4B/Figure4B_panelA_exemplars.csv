@@ -1,0 +1,5 @@
+group,label,INSTANCE,CDR3_length,FR2_CDR3_Dis,target_quantile,target_value,distance_from_quantile_target,resolution
+VHH,short,pdb_00007sak-B,17,5.8660347028018975,Q25,17.0,0.0,1.15
+VHH,long,pdb_00006jb2-A,20,6.486569839045014,Q75,20.0,0.0,1.5
+VH,short,pdb_00009f1i-H-L,17,,Q25,17.0,0.0,1.38
+VH,long,pdb_00006vln-H-L,20,,Q75,20.0,0.0,1.63

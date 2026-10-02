@@ -1,0 +1,52 @@
+# Stage 3 Configuration — Empirical VH-VL Interface Derivation by ΔSASA
+# All scientific definitions and thresholds centralized here.
+
+version: "1.0.0"
+stage: 3
+
+# Variable-domain definition (IMGT 1-128), reusing Stage-2 IMGT source of truth
+variable_domain:
+  imgt_start: 1
+  imgt_end: 128
+  description: "SAbDab2 auth_seq_id/insertion-code IS IMGT numbering (Stage-2 validated); residue-identity based, not chain-position based."
+
+# IMGT region boundaries (IMGT numbering scheme)
+imgt_regions:
+  FR1: {start: 1, end: 26}
+  CDR1: {start: 27, end: 38}
+  FR2: {start: 39, end: 55}
+  CDR2: {start: 56, end: 65}
+  FR3: {start: 66, end: 104}
+  CDR3: {start: 105, end: 117}
+  FR4: {start: 118, end: 128}
+
+vhh_tetrad_positions: [42, 49, 50, 52]
+
+# FreeSASA configuration
+freesasa:
+  probe_radius_angstrom: 1.4
+  algorithm: "LeeRichards"
+  classifier: "default (NACCESS-derived; natively recognizes MSE)"
+  n_slices: 20  # LeeRichards default resolution parameter
+
+# Per-structure ΔSASA thresholds (sensitivity set; 5 is primary)
+delta_sasa_thresholds_angstrom2: [1, 5, 10]
+primary_delta_sasa_threshold_angstrom2: 5
+
+# Consensus interface-frequency thresholds (sensitivity set; 0.25 is primary)
+consensus_frequency_thresholds: [0.10, 0.25, 0.50]
+primary_consensus_frequency_threshold: 0.25
+
+# Minimum position-observation-fraction thresholds (sensitivity set; 0.25 is primary)
+min_observation_fraction_thresholds: [0.10, 0.25, 0.50]
+min_position_observation_fraction_primary: 0.25
+
+# Checkpointing
+checkpointing:
+  enabled: true
+  checkpoint_interval: 100
+  checkpoint_dir: "data/interim/stage3/checkpoints/"
+
+logging:
+  level: "INFO"
+  log_file: "logs/stage3_interface_derivation.log"

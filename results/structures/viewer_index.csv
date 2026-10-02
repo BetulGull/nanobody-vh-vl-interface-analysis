@@ -1,0 +1,12 @@
+instance,pdb,hchain,lchain,antigen_chains,interactive_html_path,static_figure_path
+pdb_000010zo-A,pdb_000010zo,A,,B,results/structures/interactive/vhh_example_pdb_000010zo_pdb_000010zo-A.html,
+pdb_000011ha-G-K,pdb_000011ha,G,K,A,results/structures/interactive/paired_example_pdb_000011ha_pdb_000011ha-G-K.html,
+pdb_00009piz-H-I,pdb_00009piz,H,I,,results/structures/interactive/stage3_empirical_vh_vl_interface_pdb_00009piz_pdb_00009piz-H-I.html,
+pdb_00008ybp-B,pdb_00008ybp,B,,,results/structures/interactive/stage5_vhh_native_surface_pdb_00008ybp_pdb_00008ybp-B.html,
+pdb_00006o9h-A-B,pdb_00006o9h,A,B,,results/structures/interactive/stage5_vh_without_vl_surface_pdb_00006o9h_pdb_00006o9h-A-B.html,
+pdb_00007z1d-FFF,pdb_00007z1d,FFF,,,results/structures/interactive/stage6_cdr3_shielding_pdb_00007z1d_pdb_00007z1d-FFF.html,
+pdb_00004grw-E,pdb_00004grw,E,,,results/structures/interactive/stage7_cdr3_packing_pdb_00004grw_pdb_00004grw-E.html,
+pdb_00008dqu-A,pdb_00008dqu,A,,,results/structures/interactive/stage8_vhh_surface_pdb_00008dqu_pdb_00008dqu-A.html,
+pdb_00004ij3-C-B,pdb_00004ij3,C,B,,results/structures/interactive/stage8_vh_surface_pdb_00004ij3_pdb_00004ij3-C-B.html,
+pdb_00008pe2-B,pdb_00008pe2,B,NA,,results/structures/interactive/stage9_vhh_antigen_pdb_00008pe2_pdb_00008pe2-B.html,
+pdb_00002oqj-B-A,pdb_00002oqj,B,A,,results/structures/interactive/stage9_fv_antigen_pdb_00002oqj_pdb_00002oqj-B-A.html,

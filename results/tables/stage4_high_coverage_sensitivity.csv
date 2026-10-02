@@ -1,0 +1,3 @@
+group,n_full,n_high_coverage_subset,fraction_retained,H_intrinsic_binary_mean_KD_full,H_intrinsic_binary_mean_KD_high_coverage,H_intrinsic_weighted_freq5_full,H_intrinsic_weighted_freq5_high_coverage,n_evaluable_residues_median_full,n_evaluable_residues_median_high_coverage,effective_weight_sum_freq5_median_full,effective_weight_sum_freq5_median_high_coverage
+VHH,533,394,0.7392120075046904,-1.0625085136263803,-1.0314892806009557,-1.2392000140796509,-1.2233170747299686,28.0,28.0,20.711690429530222,21.03202027749463
+VH,1429,743,0.5199440167949615,-0.6964060792185632,-0.6787108111468811,-0.7032858971820295,-0.6923075415576326,26.0,28.0,19.698359437618212,20.540378056683593

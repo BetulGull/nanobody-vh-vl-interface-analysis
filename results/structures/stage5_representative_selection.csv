@@ -1,0 +1,3 @@
+category,INSTANCE,PDB,interface_sasa_weighted_mean_KD,interface_total_sasa,selection_rule
+VHH_NATIVE,pdb_00008ybp-B,pdb_00008ybp,-1.9629802899255335,1708.065067778317,"closest to cohort medians (KD, total SASA), >=90% coord coverage, resolution tie-break"
+VH_WITHOUT_VL_GEOMETRIC,pdb_00006o9h-A-B,pdb_00006o9h,-1.1015490068787845,1697.2937446194312,"closest to cohort medians (KD, total SASA), >=90% coord coverage, resolution tie-break"

@@ -1,0 +1,6 @@
+x,y,N,pearson_r,spearman_r
+nonadj_BSA_pair_total,full_interface_engagement_fraction,533,-0.3265021061587257,-0.3045678269663449
+nonadj_BSA_pair_total,shieldable_engagement_fraction,533,-0.4814621616769071,-0.40951242828482093
+former_interface_core_PSH,shieldable_engagement_fraction,533,-0.2777301314827796,-0.267307081073231
+former_interface_core_PPC,shieldable_engagement_fraction,533,0.08664350235215233,0.047798126519211885
+former_interface_core_PNC,shieldable_engagement_fraction,533,-0.07951502112965404,-0.08687980005088211

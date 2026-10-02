@@ -1,0 +1,3 @@
+subset,n_positions,n_in_primary_binary_interface,mean_interface_frequency_5,mean_delta_mean_KD,mean_JSD,n_tetrad_positions_in_full_interface,fraction_of_interface_frequency_weight_from_tetrad
+"TETRAD_ONLY (42,49,50,52)",4,4,0.8995801259622114,-2.457524942329684,0.7571204930492428,4,0.1845565738555952
+FULL_PRIMARY_INTERFACE (28 positions),28,28,0.6963254891510011,-0.3412229836224315,0.20960122127412636,4,0.1845565738555952

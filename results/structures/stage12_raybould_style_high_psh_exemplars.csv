@@ -1,0 +1,3 @@
+group,PDB,INSTANCE,sequence_group_id,PSH,group_95th_percentile,distance_to_95th_percentile,coverage,resolution,selection_rank,selection_reason
+VHH,pdb_00008f6v,pdb_00008f6v-A,sabdab2_H0408L0000,96.51633584955496,96.69612635765702,0.17979050810205877,1.0,2.3,1,"nearest to frozen group 95th-percentile former_interface_vicinity_PSH, coverage>=0.90, tie-break coverage>resolution>lexical"
+VH,pdb_00006wo3,pdb_00006wo3-H-L,sabdab2_H02DKL01YC,113.56050472132785,113.50828436079411,0.05222036053373813,1.0,2.382,1,"nearest to frozen group 95th-percentile former_interface_vicinity_PSH, coverage>=0.90, tie-break coverage>resolution>lexical"

@@ -1,0 +1,6 @@
+SABDAB_ID,n_instances,n_structures_extracted_ok,n_unique_entity_full_sequences,n_unique_coord_sequences_exact_string,n_shared_imgt_positions_compared,n_mismatched_positions_at_shared_sites,identical_at_all_shared_positions,species_labels_present,example_mismatches
+sabdab2_H00QEL0000,10,10,4,7,110,0,True,homo sapiens;lama glama,[]
+sabdab2_H021EL0000,12,12,2,5,115,0,True,homo sapiens;lama glama,[]
+sabdab2_H02DAL0000,2,2,2,1,128,0,True,homo sapiens;lama glama,[]
+sabdab2_H02Y5L0000,11,11,3,5,112,0,True,homo sapiens;lama glama,[]
+sabdab2_H06BKL0000,2,2,1,1,125,0,True,vicugna pacos,[]

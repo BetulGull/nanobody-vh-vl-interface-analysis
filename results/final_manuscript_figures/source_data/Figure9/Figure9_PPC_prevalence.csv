@@ -1,0 +1,3 @@
+group,N_total,N_patch_positive,prevalence,metric,test,p_prevalence,odds_ratio
+VHH,533,258,0.48405253283302063,PPC,fisher_exact,1.2234951154677864e-27,3.225364201016375
+VH,1429,322,0.22533240027991602,PPC,fisher_exact,1.2234951154677864e-27,3.225364201016375

@@ -1,0 +1,4 @@
+test,grouping_variable,source,largest_group,N_removed,N_retained,effect_before_std,p_before,effect_after_std,p_after,direction_stable
+engagement15~shielding,antigen_name (EXACT_ANTIGEN_IDENTITY_ONLY),stage4_vhh_sequence_representatives.parquet antigen_name,Spike protein S1,37,496,-0.44073920494825597,1.6517624065548162e-25,-0.4399025197311971,8.944356730832872e-24,True
+framework~shielding,antigen_name (EXACT_ANTIGEN_IDENTITY_ONLY),stage4_vhh_sequence_representatives.parquet antigen_name,Spike protein S1,37,496,-0.4045792166483963,2.909107697117525e-23,-0.3968331708725047,7.912133320397739e-21,True
+cdr3fraction~shielding,antigen_name (EXACT_ANTIGEN_IDENTITY_ONLY),stage4_vhh_sequence_representatives.parquet antigen_name,Spike protein S1,37,496,0.42059486509224614,1.3248898598156313e-25,0.39438414895077684,7.966190222815326e-21,True

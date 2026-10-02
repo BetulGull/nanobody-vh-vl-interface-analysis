@@ -1,0 +1,7 @@
+threshold,group,n_contact_pairs,n_unique_antibody_residues,n_instances_with_any_contact
+4.0,VHH,19697,8848,533
+4.0,VH,55425,27542,1429
+4.5,VHH,25343,9907,533
+4.5,VH,72000,31329,1429
+5.0,VHH,30700,10887,533
+5.0,VH,87914,34756,1429

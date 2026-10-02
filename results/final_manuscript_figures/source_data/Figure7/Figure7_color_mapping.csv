@@ -1,0 +1,12 @@
+element,hex,rgb,notes
+VHH domain,#3060CC,"(0.19,0.38,0.80)",consistent with VHH color used throughout the project
+Conventional VH domain,#7D4FA8,"(0.49,0.31,0.66)",consistent with VH purple used throughout the project
+VL domain,#F2A6C4,"(0.95,0.65,0.77)",consistent with VL pink used throughout the project
+Antigen body,#C8C8C8,"(0.78,0.78,0.78)",CHANGED from green to light neutral gray
+Matched epitope (antigen),#707070,"(0.44,0.44,0.44)","dark gray, validated matched-epitope residues only"
+"Former-interface, non-engaged (F\A)",#FFD400,"(1.0,0.83,0.0)",bright yellow
+"Former-interface, antigen-engaged (F∩A)",#D01414,"(0.82,0.08,0.08)","strong red, subset of yellow"
+Other antibody-antigen contact (A\F),#FF9900,"(1.0,0.60,0.0)",orange
+Boxplot VHH box fill,#7B9BE0,"(0.48,0.61,0.88)","medium desaturated blue, same family as VHH structural blue"
+Boxplot conventional VH box fill,#B48FBF,"(0.71,0.56,0.75)",muted lavender derived from VH purple + VL pink blend
+Boxplot median/whiskers/outline,#2B2B2B,"(0.17,0.17,0.17)","dark charcoal, CHANGED from orange"

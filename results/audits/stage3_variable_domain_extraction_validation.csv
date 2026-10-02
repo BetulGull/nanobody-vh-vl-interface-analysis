@@ -1,0 +1,5 @@
+category,INSTANCE,Hchain,Lchain,total_atoms_original_Hchain,atoms_retained_VH_variable_domain,CH1_excluded,total_atoms_original_Lchain,atoms_retained_VL_variable_domain,CL_excluded,first_retained_VH_IMGT_position,last_retained_VH_IMGT_position,first_retained_VL_IMGT_position,last_retained_VL_IMGT_position,insertion_coded_VH_positions_retained,insertion_coded_VL_positions_retained,antigen_atoms_absent,VH_coords_identical_between_alone_and_with_VL_extraction_calls
+FAB_VH_CH1_same_physical_chain,pdb_000011ha-G-K,G,K,1555,925,True,1619,810,True,1,128,1,128,,,True,True
+paired_FV_structure,pdb_00001a14-H-L,H,L,931,931,True,802,802,True,1,126,1,124,111A;112A,,True,True
+insertion_coded_variable_domain,pdb_000013fj-H-L,H,L,1634,913,True,1618,817,True,1,128,1,128,112A,,True,True
+missing_variable_domain_coordinates,pdb_00002xqb-H-L,H,L,1742,968,True,1516,772,True,1,128,5,128,111A;111B;112A;112B;112C,,True,True

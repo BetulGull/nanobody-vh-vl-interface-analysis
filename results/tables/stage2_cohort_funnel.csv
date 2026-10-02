@@ -1,0 +1,9 @@
+stage,n
+Stage-1 VHH structural-QC pool,1458
+Stage-2 VHH core structure pass,1380
+Stage-2 VHH Gordon complex pass,1342
+Stage-2 VHH strict-primary final,1217
+Stage-1 paired primary pool,3092
+Stage-2 paired core structure pass,2997
+Stage-2 paired Gordon complex pass,2879
+Stage-2 paired primary final,2879

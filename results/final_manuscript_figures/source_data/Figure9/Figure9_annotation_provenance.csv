@@ -1,0 +1,31 @@
+figure_panel,annotation,IMGT_position_if_applicable,metric,source_file,source_column,existing_or_derived,derivation_formula_if_derived
+A,VHH sequence logo,all 28,per-position AA frequency,Figure9_sequence_logo_VHH.csv (reused from Figure2_panelA),frequency,existing,
+B,VH sequence logo,all 28,per-position AA frequency,Figure9_sequence_logo_VH.csv (reused from Figure2_panelB),frequency,existing,
+A/B tracks,Sequence divergence track,top-5 by |value| (predeclared TOPN=5),JSD,stage4_position_chemistry_comparison.csv,JSD,existing,
+A/B tracks,Hydropathy-shift track,top-5 by |value| (predeclared TOPN=5),delta_hydropathy,stage4_position_chemistry_comparison.csv,delta_mean_KD,existing,
+A/B tracks,Charge-shift track,top-5 by |value| (predeclared TOPN=5),delta_charge,Figure9_position_level_bridge.csv,delta_charge,derived,"mean({D:-1,E:-1,R:+1,K:+1,H:+0.1}) per position per group from stage4_interface_projection_long_all_instances.parquet, VHH mean minus VH mean"
+A/B tracks,Native exposure track,top-5 by |value| (predeclared TOPN=5),VHH_native_exposure,stage5_interface_surface_chemistry_residues.parquet,"sasa (mean, VHH_NATIVE state)",existing,
+A/B tracks,CDR3 shielding track,top-5 by |value| (predeclared TOPN=5),VHH_CDR3_shielding,stage6_position_shielding_summary.csv,mean_delta_sasa_shield,existing,
+A/B tracks,Antigen engagement track (secondary),top-5 by |value| (predeclared TOPN=5),VHH_antigen_contact_frequency,stage9_framework_antigen_contact_frequency.csv,VHH_antigen_contact_frequency,existing,
+C,"Δhydropathy (signed, diverging scale centered at 0)",all 28,delta_hydropathy,stage4_position_chemistry_comparison.csv,delta_mean_KD,existing,"VHH mean KD minus VH mean KD, already computed in Stage 4"
+C,"Δcharge (signed, diverging scale centered at 0)",all 28,delta_charge,Figure9_position_level_bridge.csv,delta_charge,derived,"mean sequence-charge score per position per group, VHH minus VH"
+C,JSD (sequential scale),all 28,JSD,stage4_position_chemistry_comparison.csv,JSD,existing,
+C,Native exposure Δ (sequential scale),all 28,delta_native_exposure,Figure9_physicochemical_position_matrix.csv,delta_native_exposure,derived,"VHH_native_exposure minus VH_native_exposure, both existing Stage-5 means"
+D,Median VHH structure,n/a,nearest-to-median-PSH exemplar,"Figure5_exemplars.csv (reused, not re-selected)",representative_id,existing,
+D,Median VH structure,n/a,nearest-to-median-PSH exemplar,"Figure5_exemplars.csv (reused, not re-selected)",representative_id,existing,
+D,Hydropathy-shift markers,top-5 |delta_hydropathy| positions,delta_hydropathy,Figure9_position_tracks.csv,in_top5 (hydropathy_shift),derived,"ranking of existing delta_hydropathy values, top-5 by absolute value"
+D,Charge-shift markers,top-5 |delta_charge| positions,delta_charge,Figure9_position_tracks.csv,in_top5 (charge_shift),derived,"ranking of existing delta_charge values, top-5 by absolute value"
+D,Tetrad markers,"42,49,50,52",annotation only,frozen tetrad definition,n/a,existing,
+E (PSH),"PSH cohort summary (median/mean, Mann-Whitney)",aggregate,former_interface_core_PSH,stage8_surface_patch_descriptors.parquet,former_interface_core_PSH,existing,
+E (PSH),PSH 3D surface (hydropathy-colored),n/a,per-residue normalized KD B-factor,data/interim/figure5_median_structures/*.pdb (reused from Figure 5),B-factor=kyte_doolittle_norm,existing,reused unmodified per instruction not to select new exemplars
+F (PPC),PPC prevalence (Fisher exact),aggregate,proportion with core_PPC>0,Figure9_PPC_prevalence.csv,"n_patch_positive / N, fisher_p, odds_ratio",derived,standard prevalence statistic over existing former_interface_core_PPC values
+F (PPC),PPC conditional magnitude (Mann-Whitney U),aggregate,core_PPC among patch>0,Figure9_PPC_conditional_magnitude.csv,"mannwhitney_p, rank_biserial_effect_size",derived,standard rank statistic over existing nonzero former_interface_core_PPC values
+F (PPC),PPC 3D surface (charge_class positive),n/a,per-residue charge_class,stage8 per-residue charge_class (reused median exemplars),charge_class,existing,"visualization of existing per-residue classification, not a patch-membership decomposition"
+F (PPC),PPC residue patch membership,n/a,NOT AVAILABLE FROM VALIDATED OUTPUTS,n/a,n/a,not available,
+G (PNC),PNC prevalence (Fisher exact),aggregate,proportion with core_PNC>0,Figure9_PNC_prevalence.csv,"n_patch_positive / N, fisher_p, odds_ratio",derived,standard prevalence statistic over existing former_interface_core_PNC values
+G (PNC),PNC conditional magnitude (Mann-Whitney U),aggregate,core_PNC among patch>0,Figure9_PNC_conditional_magnitude.csv,"mannwhitney_p, rank_biserial_effect_size",derived,standard rank statistic over existing nonzero former_interface_core_PNC values
+G (PNC),PNC 3D surface (charge_class negative),n/a,per-residue charge_class,stage8 per-residue charge_class (reused median exemplars),charge_class,existing,"visualization of existing per-residue classification, not a patch-membership decomposition"
+G (PNC),PNC residue patch membership,n/a,NOT AVAILABLE FROM VALIDATED OUTPUTS,n/a,n/a,not available,
+H (APBS),APBS positive-component cohort summary,aggregate,interface_potential_positive_mean,Figure9_APBS_summary.csv,"mean, N, mannwhitney/ttest p",existing,
+H (APBS),APBS negative-component cohort summary,aggregate,interface_potential_negative_mean,Figure9_APBS_summary.csv,"mean, N, mannwhitney/ttest p",existing,
+H (APBS),APBS 3D continuum surface,n/a,raw APBS potential grid,data/interim/stage8/apbs_cohort/{instance}/{instance}.pqr.dx,"grid values (rendered as continuous surface color, shared symmetric limits both groups)",existing,"spatial rendering of existing continuum grid, never decomposed to per-residue values"

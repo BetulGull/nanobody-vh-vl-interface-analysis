@@ -1,0 +1,6 @@
+cohort_dir	n_cif	n_mmcif	n_csv	n_other	total_size_bytes	total_size_human	n_unique_basenames
+data/raw_extracted/sdh	1597	0	0	0	462056101	444M	1597
+data/raw_extracted/fv	536	0	0	0	164130125	158M	536
+data/raw_extracted/fab	1392	0	0	0	585798621	561M	1392
+data/raw_extracted/unknown/archive_145541	373	0	0	0	159555644	153M	373
+data/raw_extracted/unknown/archive_150035	1033	0	0	0	430688011	413M	1033

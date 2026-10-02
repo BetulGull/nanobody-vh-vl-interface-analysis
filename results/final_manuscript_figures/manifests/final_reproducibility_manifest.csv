@@ -1,0 +1,8 @@
+script,environment,reads_only_frozen_upstream,writes_new_stage_outputs,notes
+src/qc/final_regional_physicochemistry.py,vhh3d,True,False,"operates on data/processed, results/tables from Stage 2-12 and their own prior outputs only"
+src/qc/final_build_model_input.py,vhh3d,True,False,"operates on data/processed, results/tables from Stage 2-12 and their own prior outputs only"
+src/qc/final_cdr3_length_group_interactions.py,vhh3d,True,False,"operates on data/processed, results/tables from Stage 2-12 and their own prior outputs only"
+src/qc/final_freeze_3d_exemplars.py,vhh3d,True,False,"operates on data/processed, results/tables from Stage 2-12 and their own prior outputs only"
+src/qc/final_manuscript_figure4_exemplars.py,vhh3d,True,False,"operates on data/processed, results/tables from Stage 2-12 and their own prior outputs only"
+src/qc/final_manuscript_structures.py,vhh3d,True,False,"operates on data/processed, results/tables from Stage 2-12 and their own prior outputs only"
+scripts/final_manuscript_render_structures.py,vhh3d (python/pandas/statsmodels/scipy) or vhh-interface-viz (PyMOL),True,False,"operates on data/processed, results/tables from Stage 2-12 and their own prior outputs only"

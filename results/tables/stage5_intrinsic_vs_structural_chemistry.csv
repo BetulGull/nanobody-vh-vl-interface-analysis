@@ -1,0 +1,3 @@
+group,structural_state,N_binary,pearson_binary_intrinsic_vs_structural,spearman_binary_intrinsic_vs_structural,N_weighted,pearson_weighted_intrinsic_vs_structural,spearman_weighted_intrinsic_vs_structural,intrinsic_mean,structural_mean
+VHH,VHH_NATIVE,533,0.72234801831521,0.7023717307752738,533,0.7378599465230367,0.7231332469161154,-1.0625085136263803,-1.8838758630325274
+VH,VH_WITHOUT_VL_GEOMETRIC,1429,0.8180986433963116,0.8037939457940334,1429,0.8314672892531306,0.8208582685619882,-0.6964060792185632,-1.057097157310925

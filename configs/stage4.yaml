@@ -1,0 +1,30 @@
+# Stage 4 Configuration — Empirical Interface Projection and Intrinsic Sequence Chemistry
+
+version: "1.0.0"
+stage: 4
+
+imgt_regions:
+  FR1: {start: 1, end: 26}
+  CDR1: {start: 27, end: 38}
+  FR2: {start: 39, end: 55}
+  CDR2: {start: 56, end: 65}
+  FR3: {start: 66, end: 104}
+  CDR3: {start: 105, end: 117}
+  FR4: {start: 118, end: 128}
+
+vhh_tetrad_positions: [42, 49, 50, 52]
+
+hydropathy_scale: "Kyte-Doolittle (1982)"
+
+# No coverage cutoff -- report distributions before considering any filtering.
+coverage_threshold_primary: null
+
+# Interface-vs-control: framework positions NOT in the primary binary
+# interface, with adequate Stage-3 observation, used as the descriptive
+# control group (never CDR positions -- CDR composition differs between
+# VHH/VH for many reasons unrelated to the former VH-VL interface).
+control_min_observation_fraction: 0.25
+
+logging:
+  level: "INFO"
+  log_file: "logs/stage4_interface_projection.log"

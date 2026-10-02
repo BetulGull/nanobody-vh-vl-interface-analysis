@@ -1,0 +1,35 @@
+{
+  "1bzq": {
+    "present": true,
+    "n_rows": 4,
+    "expected": "natural Camelus dromedarius VHH candidate",
+    "actual_sdh_classification": "natural_camelid_candidate",
+    "actual_normalized_species": "Camelus dromedarius",
+    "actual_resolution": 2.8,
+    "actual_resolution_le_3": true,
+    "actual_primary_vhh_candidate": true
+  },
+  "2vyr": {
+    "present": true,
+    "n_rows": 8,
+    "expected": "human single-domain VH; must NOT enter primary natural VHH candidate cohort",
+    "actual_sdh_classification": "human_sdVH_candidate",
+    "actual_normalized_species": "Homo sapiens",
+    "actual_resolution": 2.0,
+    "actual_resolution_le_3": true,
+    "actual_primary_vhh_candidate": false
+  },
+  "27uh": {
+    "present": true,
+    "n_rows": 4,
+    "expected": "synthetic/de-novo category",
+    "actual_sdh_classification": "synthetic_or_de_novo_candidate",
+    "actual_normalized_species": "synthetic construct",
+    "actual_resolution": 1.82,
+    "actual_resolution_le_3": true,
+    "actual_primary_vhh_candidate": false
+  },
+  "1g6v": {
+    "present": false
+  }
+}

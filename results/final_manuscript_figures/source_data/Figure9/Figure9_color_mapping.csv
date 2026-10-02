@@ -1,0 +1,13 @@
+element,hex,notes
+VHH group,#3060CC,established manuscript blue
+Conventional VH group,#7D4FA8,established manuscript purple
+Median/summary lines,#2B2B2B,"dark charcoal, not orange (orange has other semantic meaning in Figure 7)"
+Sequence divergence track (JSD),#0B9E91,"teal, matches CDR3-range annotation convention used in Figures 1/2"
+Hydropathy-shift track,#E8542F,"warm orange-red, distinct from Figure-7 orange"
+Charge-shift track,#4A6FA5,steel blue
+Native exposure track,#999999,"neutral gray, magnitude-only track"
+CDR3 shielding track,#8B5FA8,"violet, distinguishes geometric masking from sequence chemistry tracks"
+Antigen engagement track (secondary),#CCCCCC,"light gray, kept visually secondary per instruction"
+Tetrad marker,#8a6d00,"bold gold, consistent with Figures 1/2 tetrad convention"
+Positive charge (charge_class),#2255CC,"blue, standard electrostatic convention"
+Negative charge (charge_class),#CC2222,"red, standard electrostatic convention"

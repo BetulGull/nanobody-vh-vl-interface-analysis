@@ -1,0 +1,2 @@
+n_total_residue_observations,n_delta_negative,min_delta,n_delta_lt_minus_0.1,n_delta_lt_minus_0.5,n_delta_lt_minus_1.0,negative_fraction,negative_mean,negative_std
+348144,2,-7.105427357601002e-15,0,0,0,5.744749299140586e-06,-4.107825191113079e-15,4.239249638446193e-15

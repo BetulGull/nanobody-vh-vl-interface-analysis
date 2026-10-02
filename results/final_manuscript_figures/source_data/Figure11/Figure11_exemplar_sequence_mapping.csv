@@ -1,0 +1,265 @@
+group,structure_id,chain,IMGT_position,amino_acid,region,important_position,context_only,feature_membership,threeD_color_encoding,sequence_color_encoding,mapping_status
+VHH,pdb_00006hjy-G,A,38,V,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjy-G,A,39,M,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjy-G,A,40,G,FR2,True,False,Sequence divergence,#B8870A,#B8870A,mapped
+VHH,pdb_00006hjy-G,A,41,W,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjy-G,A,42,F,FR2,True,False,Antigen engagement;CDR3 shielding (VHH only);Hydropathy shift;Sequence divergence,#D91AA6+#B8870A,#D91AA6+#B8870A,mapped
+VHH,pdb_00006hjy-G,A,43,R,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjy-G,A,44,Q,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjy-G,A,47,G,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjy-G,A,48,K,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjy-G,A,49,E,FR2,True,False,Antigen engagement;Charge shift;Hydropathy shift;Native exposure difference;Sequence divergence,#D91AA6+#B8870A,#D91AA6+#B8870A,mapped
+VHH,pdb_00006hjy-G,A,50,R,FR2,True,False,Antigen engagement;Charge shift;Hydropathy shift;Native exposure difference;Sequence divergence,#D91AA6+#B8870A,#D91AA6+#B8870A,mapped
+VHH,pdb_00006hjy-G,A,51,E,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjy-G,A,52,F,FR2,True,False,Antigen engagement;CDR3 shielding (VHH only);Hydropathy shift;Native exposure difference;Sequence divergence,#D91AA6+#B8870A,#D91AA6+#B8870A,mapped
+VHH,pdb_00006hjy-G,A,53,V,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjy-G,A,54,A,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjy-G,A,55,T,FR2,True,False,CDR3 shielding (VHH only),#B8870A,#B8870A,mapped
+VHH,pdb_00006hjy-G,A,56,V,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjy-G,A,57,G,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjy-G,A,64,S,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjy-G,A,65,T,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjy-G,A,66,V,FR3,True,False,CDR3 shielding (VHH only),#B8870A,#B8870A,mapped
+VHH,pdb_00006hjy-G,A,67,Y,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjy-G,A,68,A,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjy-G,A,69,D,FR3,True,False,Charge shift,#B8870A,#B8870A,mapped
+VHH,pdb_00006hjy-G,A,70,F,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjy-G,A,71,V,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjy-G,A,105,G,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjy-G,A,106,A,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjy-G,A,107,R,CDR3,True,False,Charge shift,#B8870A,#B8870A,mapped
+VHH,pdb_00006hjy-G,A,108,I,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjy-G,A,109,G,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjy-G,A,111A,D,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjy-G,A,111B,R,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjy-G,A,112B,L,CDR3,True,False,Native exposure difference,#B8870A,#B8870A,mapped
+VHH,pdb_00006hjy-G,A,112A,A,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjy-G,A,112,P,CDR3,True,False,Native exposure difference,#B8870A,#B8870A,mapped
+VHH,pdb_00006hjy-G,A,113,E,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjy-G,A,114,N,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjy-G,A,115,Y,CDR3,True,False,Hydropathy shift,#B8870A,#B8870A,mapped
+VHH,pdb_00006hjy-G,A,116,G,CDR3,True,False,Charge shift,#B8870A,#B8870A,mapped
+VHH,pdb_00006hjy-G,A,117,Y,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjy-G,A,118,W,FR4,True,False,Antigen engagement;CDR3 shielding (VHH only),#B8870A,#B8870A,mapped
+VHH,pdb_00006hjy-G,A,119,G,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjy-G,A,120,Q,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjx-F,A,38,V,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjx-F,A,39,M,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjx-F,A,40,G,FR2,True,False,Sequence divergence,#B8870A,#B8870A,mapped
+VHH,pdb_00006hjx-F,A,41,W,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjx-F,A,42,F,FR2,True,False,Antigen engagement;CDR3 shielding (VHH only);Hydropathy shift;Sequence divergence,#D91AA6+#B8870A,#D91AA6+#B8870A,mapped
+VHH,pdb_00006hjx-F,A,43,R,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjx-F,A,44,Q,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjx-F,A,47,G,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjx-F,A,48,K,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjx-F,A,49,E,FR2,True,False,Antigen engagement;Charge shift;Hydropathy shift;Native exposure difference;Sequence divergence,#D91AA6+#B8870A,#D91AA6+#B8870A,mapped
+VHH,pdb_00006hjx-F,A,50,R,FR2,True,False,Antigen engagement;Charge shift;Hydropathy shift;Native exposure difference;Sequence divergence,#D91AA6+#B8870A,#D91AA6+#B8870A,mapped
+VHH,pdb_00006hjx-F,A,51,E,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjx-F,A,52,F,FR2,True,False,Antigen engagement;CDR3 shielding (VHH only);Hydropathy shift;Native exposure difference;Sequence divergence,#D91AA6+#B8870A,#D91AA6+#B8870A,mapped
+VHH,pdb_00006hjx-F,A,53,V,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjx-F,A,54,A,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjx-F,A,55,T,FR2,True,False,CDR3 shielding (VHH only),#B8870A,#B8870A,mapped
+VHH,pdb_00006hjx-F,A,56,V,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjx-F,A,57,G,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjx-F,A,64,S,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjx-F,A,65,T,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjx-F,A,66,V,FR3,True,False,CDR3 shielding (VHH only),#B8870A,#B8870A,mapped
+VHH,pdb_00006hjx-F,A,67,Y,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjx-F,A,68,A,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjx-F,A,69,D,FR3,True,False,Charge shift,#B8870A,#B8870A,mapped
+VHH,pdb_00006hjx-F,A,70,F,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjx-F,A,71,V,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjx-F,A,105,G,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjx-F,A,106,A,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjx-F,A,107,R,CDR3,True,False,Charge shift,#B8870A,#B8870A,mapped
+VHH,pdb_00006hjx-F,A,108,I,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjx-F,A,109,G,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjx-F,A,111A,D,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjx-F,A,111B,R,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjx-F,A,112B,L,CDR3,True,False,Native exposure difference,#B8870A,#B8870A,mapped
+VHH,pdb_00006hjx-F,A,112A,A,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjx-F,A,112,P,CDR3,True,False,Native exposure difference,#B8870A,#B8870A,mapped
+VHH,pdb_00006hjx-F,A,113,E,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjx-F,A,114,N,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjx-F,A,115,Y,CDR3,True,False,Hydropathy shift,#B8870A,#B8870A,mapped
+VHH,pdb_00006hjx-F,A,116,G,CDR3,True,False,Charge shift,#B8870A,#B8870A,mapped
+VHH,pdb_00006hjx-F,A,117,Y,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjx-F,A,118,W,FR4,True,False,Antigen engagement;CDR3 shielding (VHH only),#B8870A,#B8870A,mapped
+VHH,pdb_00006hjx-F,A,119,G,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00006hjx-F,A,120,Q,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00008dqu-A,A,38,T,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00008dqu-A,A,39,M,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00008dqu-A,A,40,G,FR2,True,False,Sequence divergence,#B8870A,#B8870A,mapped
+VHH,pdb_00008dqu-A,A,41,W,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00008dqu-A,A,42,F,FR2,True,False,Antigen engagement;CDR3 shielding (VHH only);Hydropathy shift;Sequence divergence,#D91AA6+#B8870A,#D91AA6+#B8870A,mapped
+VHH,pdb_00008dqu-A,A,43,R,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00008dqu-A,A,44,Q,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00008dqu-A,A,47,G,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00008dqu-A,A,48,K,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00008dqu-A,A,49,E,FR2,True,False,Antigen engagement;Charge shift;Hydropathy shift;Native exposure difference;Sequence divergence,#D91AA6+#B8870A,#D91AA6+#B8870A,mapped
+VHH,pdb_00008dqu-A,A,50,R,FR2,True,False,Antigen engagement;Charge shift;Hydropathy shift;Native exposure difference;Sequence divergence,#D91AA6+#B8870A,#D91AA6+#B8870A,mapped
+VHH,pdb_00008dqu-A,A,51,E,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00008dqu-A,A,52,F,FR2,True,False,Antigen engagement;CDR3 shielding (VHH only);Hydropathy shift;Native exposure difference;Sequence divergence,#D91AA6+#B8870A,#D91AA6+#B8870A,mapped
+VHH,pdb_00008dqu-A,A,53,V,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00008dqu-A,A,54,A,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00008dqu-A,A,55,M,FR2,True,False,CDR3 shielding (VHH only),#B8870A,#B8870A,mapped
+VHH,pdb_00008dqu-A,A,56,I,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00008dqu-A,A,57,I,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00008dqu-A,A,64,S,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00008dqu-A,A,65,T,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00008dqu-A,A,66,D,FR3,True,False,CDR3 shielding (VHH only),#B8870A,#B8870A,mapped
+VHH,pdb_00008dqu-A,A,67,Y,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00008dqu-A,A,68,A,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00008dqu-A,A,69,D,FR3,True,False,Charge shift,#B8870A,#B8870A,mapped
+VHH,pdb_00008dqu-A,A,70,S,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00008dqu-A,A,71,V,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00008dqu-A,A,105,A,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00008dqu-A,A,106,A,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00008dqu-A,A,107,P,CDR3,True,False,Charge shift,#B8870A,#B8870A,mapped
+VHH,pdb_00008dqu-A,A,108,K,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00008dqu-A,A,109,F,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00008dqu-A,A,111B,F,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00008dqu-A,A,112C,S,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00008dqu-A,A,112B,T,CDR3,True,False,Native exposure difference,#B8870A,#B8870A,mapped
+VHH,pdb_00008dqu-A,A,112A,S,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00008dqu-A,A,112,P,CDR3,True,False,Native exposure difference,#B8870A,#B8870A,mapped
+VHH,pdb_00008dqu-A,A,113,G,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00008dqu-A,A,114,D,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00008dqu-A,A,115,F,CDR3,True,False,Hydropathy shift,#B8870A,#B8870A,mapped
+VHH,pdb_00008dqu-A,A,116,D,CDR3,True,False,Charge shift,#B8870A,#B8870A,mapped
+VHH,pdb_00008dqu-A,A,117,S,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00008dqu-A,A,118,W,FR4,True,False,Antigen engagement;CDR3 shielding (VHH only),#B8870A,#B8870A,mapped
+VHH,pdb_00008dqu-A,A,119,G,,False,True,,none (context only),none (context only),mapped
+VHH,pdb_00008dqu-A,A,120,Q,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00005ggv-H-L,H,38,G,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00005ggv-H-L,H,39,M,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00005ggv-H-L,H,40,H,FR2,True,False,Sequence divergence,#B8870A,#B8870A,mapped
+VH,pdb_00005ggv-H-L,H,41,W,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00005ggv-H-L,H,42,V,FR2,True,False,Antigen engagement;CDR3 shielding (VHH only);Hydropathy shift;Sequence divergence,#D91AA6+#B8870A,#D91AA6+#B8870A,mapped
+VH,pdb_00005ggv-H-L,H,43,R,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00005ggv-H-L,H,44,Q,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00005ggv-H-L,H,47,G,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00005ggv-H-L,H,48,K,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00005ggv-H-L,H,49,G,FR2,True,False,Antigen engagement;Charge shift;Hydropathy shift;Native exposure difference;Sequence divergence,#D91AA6+#B8870A,#D91AA6+#B8870A,mapped
+VH,pdb_00005ggv-H-L,H,50,L,FR2,True,False,Antigen engagement;Charge shift;Hydropathy shift;Native exposure difference;Sequence divergence,#D91AA6+#B8870A,#D91AA6+#B8870A,mapped
+VH,pdb_00005ggv-H-L,H,51,E,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00005ggv-H-L,H,52,W,FR2,True,False,Antigen engagement;CDR3 shielding (VHH only);Hydropathy shift;Native exposure difference;Sequence divergence,#D91AA6+#B8870A,#D91AA6+#B8870A,mapped
+VH,pdb_00005ggv-H-L,H,53,V,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00005ggv-H-L,H,54,A,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00005ggv-H-L,H,55,V,FR2,True,False,CDR3 shielding (VHH only),#B8870A,#B8870A,mapped
+VH,pdb_00005ggv-H-L,H,56,I,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00005ggv-H-L,H,57,W,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00005ggv-H-L,H,64,N,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00005ggv-H-L,H,65,K,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00005ggv-H-L,H,66,Y,FR3,True,False,CDR3 shielding (VHH only),#B8870A,#B8870A,mapped
+VH,pdb_00005ggv-H-L,H,67,Y,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00005ggv-H-L,H,68,A,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00005ggv-H-L,H,69,D,FR3,True,False,Charge shift,#B8870A,#B8870A,mapped
+VH,pdb_00005ggv-H-L,H,70,S,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00005ggv-H-L,H,71,V,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00005ggv-H-L,H,105,A,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00005ggv-H-L,H,106,R,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00005ggv-H-L,H,107,D,CDR3,True,False,Charge shift,#B8870A,#B8870A,mapped
+VH,pdb_00005ggv-H-L,H,108,P,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00005ggv-H-L,H,109,R,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00005ggv-H-L,H,111B,L,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00005ggv-H-L,H,112C,Y,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00005ggv-H-L,H,112B,Y,CDR3,True,False,Native exposure difference,#B8870A,#B8870A,mapped
+VH,pdb_00005ggv-H-L,H,112A,Y,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00005ggv-H-L,H,112,Y,CDR3,True,False,Native exposure difference,#B8870A,#B8870A,mapped
+VH,pdb_00005ggv-H-L,H,113,Y,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00005ggv-H-L,H,114,G,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00005ggv-H-L,H,115,M,CDR3,True,False,Hydropathy shift,#B8870A,#B8870A,mapped
+VH,pdb_00005ggv-H-L,H,116,D,CDR3,True,False,Charge shift,#B8870A,#B8870A,mapped
+VH,pdb_00005ggv-H-L,H,117,V,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00005ggv-H-L,H,118,W,FR4,True,False,Antigen engagement;CDR3 shielding (VHH only),#B8870A,#B8870A,mapped
+VH,pdb_00005ggv-H-L,H,119,G,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00005ggv-H-L,H,120,Q,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00003wfd-H-L,H,38,W,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00003wfd-H-L,H,39,M,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00003wfd-H-L,H,40,H,FR2,True,False,Sequence divergence,#B8870A,#B8870A,mapped
+VH,pdb_00003wfd-H-L,H,41,W,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00003wfd-H-L,H,42,V,FR2,True,False,Antigen engagement;CDR3 shielding (VHH only);Hydropathy shift;Sequence divergence,#D91AA6+#B8870A,#D91AA6+#B8870A,mapped
+VH,pdb_00003wfd-H-L,H,43,K,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00003wfd-H-L,H,44,Q,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00003wfd-H-L,H,47,G,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00003wfd-H-L,H,48,Q,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00003wfd-H-L,H,49,G,FR2,True,False,Antigen engagement;Charge shift;Hydropathy shift;Native exposure difference;Sequence divergence,#D91AA6+#B8870A,#D91AA6+#B8870A,mapped
+VH,pdb_00003wfd-H-L,H,50,L,FR2,True,False,Antigen engagement;Charge shift;Hydropathy shift;Native exposure difference;Sequence divergence,#D91AA6+#B8870A,#D91AA6+#B8870A,mapped
+VH,pdb_00003wfd-H-L,H,51,E,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00003wfd-H-L,H,52,W,FR2,True,False,Antigen engagement;CDR3 shielding (VHH only);Hydropathy shift;Native exposure difference;Sequence divergence,#D91AA6+#B8870A,#D91AA6+#B8870A,mapped
+VH,pdb_00003wfd-H-L,H,53,I,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00003wfd-H-L,H,54,G,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00003wfd-H-L,H,55,A,FR2,True,False,CDR3 shielding (VHH only),#B8870A,#B8870A,mapped
+VH,pdb_00003wfd-H-L,H,56,V,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00003wfd-H-L,H,57,Y,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00003wfd-H-L,H,64,D,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00003wfd-H-L,H,65,T,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00003wfd-H-L,H,66,S,FR3,True,False,CDR3 shielding (VHH only),#B8870A,#B8870A,mapped
+VH,pdb_00003wfd-H-L,H,67,Y,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00003wfd-H-L,H,68,N,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00003wfd-H-L,H,69,Q,FR3,True,False,Charge shift,#B8870A,#B8870A,mapped
+VH,pdb_00003wfd-H-L,H,70,K,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00003wfd-H-L,H,71,F,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00003wfd-H-L,H,105,S,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00003wfd-H-L,H,106,R,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00003wfd-H-L,H,107,S,CDR3,True,False,Charge shift,#B8870A,#B8870A,mapped
+VH,pdb_00003wfd-H-L,H,108,S,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00003wfd-H-L,H,109,L,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00003wfd-H-L,H,111A,Y,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00003wfd-H-L,H,111B,Y,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00003wfd-H-L,H,112B,V,CDR3,True,False,Native exposure difference,#B8870A,#B8870A,mapped
+VH,pdb_00003wfd-H-L,H,112A,K,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00003wfd-H-L,H,112,N,CDR3,True,False,Native exposure difference,#B8870A,#B8870A,mapped
+VH,pdb_00003wfd-H-L,H,113,W,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00003wfd-H-L,H,114,C,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00003wfd-H-L,H,115,F,CDR3,True,False,Hydropathy shift,#B8870A,#B8870A,mapped
+VH,pdb_00003wfd-H-L,H,116,D,CDR3,True,False,Charge shift,#B8870A,#B8870A,mapped
+VH,pdb_00003wfd-H-L,H,117,V,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00003wfd-H-L,H,118,W,FR4,True,False,Antigen engagement;CDR3 shielding (VHH only),#B8870A,#B8870A,mapped
+VH,pdb_00003wfd-H-L,H,119,G,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00003wfd-H-L,H,120,Q,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00007l7d-H-L,H,38,A,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00007l7d-H-L,H,39,V,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00007l7d-H-L,H,40,Q,FR2,True,False,Sequence divergence,#B8870A,#B8870A,mapped
+VH,pdb_00007l7d-H-L,H,41,W,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00007l7d-H-L,H,42,V,FR2,True,False,Antigen engagement;CDR3 shielding (VHH only);Hydropathy shift;Sequence divergence,#D91AA6+#B8870A,#D91AA6+#B8870A,mapped
+VH,pdb_00007l7d-H-L,H,43,R,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00007l7d-H-L,H,44,Q,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00007l7d-H-L,H,47,G,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00007l7d-H-L,H,48,Q,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00007l7d-H-L,H,49,R,FR2,True,False,Antigen engagement;Charge shift;Hydropathy shift;Native exposure difference;Sequence divergence,#D91AA6+#B8870A,#D91AA6+#B8870A,mapped
+VH,pdb_00007l7d-H-L,H,50,L,FR2,True,False,Antigen engagement;Charge shift;Hydropathy shift;Native exposure difference;Sequence divergence,#D91AA6+#B8870A,#D91AA6+#B8870A,mapped
+VH,pdb_00007l7d-H-L,H,51,E,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00007l7d-H-L,H,52,W,FR2,True,False,Antigen engagement;CDR3 shielding (VHH only);Hydropathy shift;Native exposure difference;Sequence divergence,#D91AA6+#B8870A,#D91AA6+#B8870A,mapped
+VH,pdb_00007l7d-H-L,H,53,I,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00007l7d-H-L,H,54,G,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00007l7d-H-L,H,55,W,FR2,True,False,CDR3 shielding (VHH only),#B8870A,#B8870A,mapped
+VH,pdb_00007l7d-H-L,H,56,I,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00007l7d-H-L,H,57,V,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00007l7d-H-L,H,64,N,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00007l7d-H-L,H,65,T,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00007l7d-H-L,H,66,N,FR3,True,False,CDR3 shielding (VHH only),#B8870A,#B8870A,mapped
+VH,pdb_00007l7d-H-L,H,67,Y,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00007l7d-H-L,H,68,A,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00007l7d-H-L,H,69,Q,FR3,True,False,Charge shift,#B8870A,#B8870A,mapped
+VH,pdb_00007l7d-H-L,H,70,K,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00007l7d-H-L,H,71,F,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00007l7d-H-L,H,105,A,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00007l7d-H-L,H,106,A,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00007l7d-H-L,H,107,P,CDR3,True,False,Charge shift,#B8870A,#B8870A,mapped
+VH,pdb_00007l7d-H-L,H,108,Y,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00007l7d-H-L,H,109,C,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00007l7d-H-L,H,111,S,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00007l7d-H-L,H,111A,I,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00007l7d-H-L,H,112B,S,CDR3,True,False,Native exposure difference,#B8870A,#B8870A,mapped
+VH,pdb_00007l7d-H-L,H,112A,C,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00007l7d-H-L,H,112,N,CDR3,True,False,Native exposure difference,#B8870A,#B8870A,mapped
+VH,pdb_00007l7d-H-L,H,113,D,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00007l7d-H-L,H,114,G,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00007l7d-H-L,H,115,F,CDR3,True,False,Hydropathy shift,#B8870A,#B8870A,mapped
+VH,pdb_00007l7d-H-L,H,116,D,CDR3,True,False,Charge shift,#B8870A,#B8870A,mapped
+VH,pdb_00007l7d-H-L,H,117,I,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00007l7d-H-L,H,118,W,FR4,True,False,Antigen engagement;CDR3 shielding (VHH only),#B8870A,#B8870A,mapped
+VH,pdb_00007l7d-H-L,H,119,G,,False,True,,none (context only),none (context only),mapped
+VH,pdb_00007l7d-H-L,H,120,Q,,False,True,,none (context only),none (context only),mapped

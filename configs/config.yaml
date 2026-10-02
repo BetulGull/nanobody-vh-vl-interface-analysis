@@ -1,0 +1,78 @@
+seed: 42
+
+quality:
+  method: XRAY
+  resolution_max_A: 3.0
+
+contacts:
+  antibody_antigen_cutoff_A: 4.5
+
+imgt:
+  cdr1:
+    start: 27
+    end: 38
+
+  cdr2:
+    start: 56
+    end: 65
+
+  cdr3:
+    start: 105
+    end: 117
+
+  tetrad:
+    - 42
+    - 49
+    - 50
+    - 52
+
+former_interface:
+  per_structure_delta_sasa_thresholds_A2:
+    - 1.0
+    - 5.0
+    - 10.0
+
+  consensus_frequency_thresholds:
+    - 0.10
+    - 0.25
+    - 0.50
+
+  primary_delta_sasa_threshold_A2: 5.0
+  primary_frequency_threshold: 0.25
+
+  retain_continuous_interface_map: true
+
+  continuous_metrics:
+    - interface_frequency
+    - mean_delta_sasa_A2
+    - median_delta_sasa_A2
+
+  calculate_weighted_interface_sensitivity: true
+
+interface_projection:
+  calculate_coverage_fraction: true
+  coverage_threshold_primary: null
+
+analysis:
+  random_seed: 42
+  primary_vhh_cohort: natural_camelid
+  include_engineered_vhh_in_primary: false
+  include_nonprotein_antigen_contacts: false
+
+cohorts:
+  primary_raw_cohorts:
+    - SD-H
+    - FAB
+    - FV
+  optional_future_expansion:
+    - FAB+FC
+  # FAB+FC absence is a deliberate scope decision (Fc is not part of the
+  # former VH-VL interface analysis), not a data-completeness failure.
+
+comparison:
+  primary_mechanistic_basis: VHH_vs_paired_structure_VH
+  whole_fv_only_for_secondary_descriptors: true
+
+limitations:
+  bound_state_bias: true
+  crystal_packing_possible: true

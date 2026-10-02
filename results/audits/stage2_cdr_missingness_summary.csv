@@ -1,0 +1,2 @@
+total_missing_real_CDR_residues,"affected_CDR_loops (INSTANCE,CDR pairs)","affected_antibody_chains (INSTANCE,chain pairs)",affected_INSTANCE_rows,residues_missing_H1,loops_affected_H1,residues_missing_H2,loops_affected_H2,residues_missing_H3,loops_affected_H3,residues_missing_L1,loops_affected_L1,residues_missing_L2,loops_affected_L2,residues_missing_L3,loops_affected_L3
+678,189,179,173,217,72,40,16,192,50,121,30,82,11,26,10

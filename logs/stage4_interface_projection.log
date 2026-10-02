@@ -1,0 +1,8 @@
+2026-09-01 23:42:04,359 - Projecting PRIMARY (nonredundant representative) sets...
+2026-09-01 23:42:10,031 - VHH (primary): 533 sequences, 0 errors, 114062 rows
+2026-09-01 23:42:29,028 - VH (primary): 1429 sequences, 0 errors, 305806 rows
+2026-09-01 23:42:29,692 - Wrote /Users/betulgul/Desktop/staj/data/processed/stage4_interface_projection_long.parquet: 419868 rows
+2026-09-01 23:42:29,692 - Projecting ALL-INSTANCE sensitivity sets...
+2026-09-01 23:42:42,305 - VHH (all-instance): 1217 sequences, 0 errors, 260438 rows
+2026-09-01 23:43:23,432 - VH (all-instance): 2879 sequences, 0 errors, 616106 rows
+2026-09-01 23:43:25,145 - Wrote /Users/betulgul/Desktop/staj/data/processed/stage4_interface_projection_long_all_instances.parquet: 876544 rows

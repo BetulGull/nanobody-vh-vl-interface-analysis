@@ -1,0 +1,19 @@
+feature,feature_key,block_index,positions,region
+Sequence divergence,seq_divergence,0,38;39;40;41;42;43;44,FR2
+Sequence divergence,seq_divergence,1,47;48;49;50;51;52;53;54,FR2
+Hydropathy shift,hydropathy_shift,0,40;41;42;43;44,FR2
+Hydropathy shift,hydropathy_shift,1,47;48;49;50;51;52;53;54,FR2
+Hydropathy shift,hydropathy_shift,2,113;114;115;116;117,CDR3
+Charge shift,charge_shift,0,47;48;49;50;51;52,FR2
+Charge shift,charge_shift,1,67;68;69;70;71,FR3
+Charge shift,charge_shift,2,105;106;107;108;109,CDR3
+Charge shift,charge_shift,3,114;115;116;117;118,CDR3
+Native exposure difference,native_exposure,0,47;48;49;50;51;52;53;54,FR2
+Native exposure difference,native_exposure,1,111;111A;112;112A;112B;113;114,CDR3
+CDR3 shielding (VHH only),cdr3_shielding,0,40;41;42;43;44,FR2
+CDR3 shielding (VHH only),cdr3_shielding,1,50;51;52;53;54;55;56;57,FR2
+CDR3 shielding (VHH only),cdr3_shielding,2,64;65;66;67;68,FR3
+CDR3 shielding (VHH only),cdr3_shielding,3,116;117;118;119;120,FR4
+Antigen engagement,antigen_engagement,0,40;41;42;43;44,FR2
+Antigen engagement,antigen_engagement,1,47;48;49;50;51;52;53;54,FR2
+Antigen engagement,antigen_engagement,2,116;117;118;119;120,FR4

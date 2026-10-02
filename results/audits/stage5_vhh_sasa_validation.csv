@@ -1,0 +1,12 @@
+category,INSTANCE,Hchain,model_id,total_atoms_original_Hchain,atoms_retained_vhh_variable_domain,antigen_atoms_absent,antigen_chains_identified,has_constant_domain_in_full_chain,constant_domain_excluded,cdr3_real_residues_observed,cdr3_fully_intact_in_extraction,insertion_coded_positions_retained,coords_identical_across_calls,total_sasa,sasa_reproducible
+lowest_coverage_short_or_unresolved,pdb_00009imx-C,C,1,753,732,True,A,True,True,19,True,111A;111B;111C;112A;112B;112C,True,5582.590645397581,True
+longest_coverage_long_CDR3_insertion,pdb_00003k3q-A,A,1,1028,1016,True,B;C,True,True,19,True,111A;111B;111C;112A;112B;112C;32A;32B;32C;33A;33B;33C;33D,True,6852.656335052487,True
+unusual_multichar_chain_id,pdb_00006zbp-FFF,FFF,1,1063,992,True,EEE,True,True,20,True,111A;111B;111C;112A;112B;112C;112D,True,6615.3433423573915,True
+unusual_multichar_chain_id_2,pdb_00006ul6-B1,B1,1,940,940,True,A,True,True,18,True,111A;111B;112A;112B;112C,True,6810.843606436316,True
+highest_resolution_1.02A,pdb_00008qf4-E,E,1,1289,980,True,A,False,True,19,True,111A;111B;111C;112A;112B;112C,True,6979.81889064165,True
+lowest_resolution_3.0A,pdb_00001zmy-A,A,1,972,954,True,L,True,True,26,True,111A;111B;111C;111D;111E;111F;112A;112B;112C;112D;112E;112F;112G,True,6374.133850201188,True
+multiple_antigen_chain_complex,pdb_00001jtp-A,A,1,1088,981,True,L,True,True,26,True,111A;111B;111C;111D;111E;111F;112A;112B;112C;112D;112E;112F;112G,True,6623.418080365027,True
+low_coverage_2,pdb_00007m1h-G,G,1,786,782,True,A,False,True,15,True,111A;112A,True,6202.316711104911,True
+low_coverage_3,pdb_00003zkx-C,C,1,904,828,True,A,False,True,5,True,,True,6034.177840695576,True
+long_CDR3_2,pdb_00006oca-D,D,1,1077,1034,True,B,True,True,18,True,111A;111B;112A;112B;112C;32A;33A;33B;67A;67B;67C,True,7233.395634845478,True
+long_CDR3_3,pdb_00009gv3-E,E,1,1133,1031,True,A,True,True,26,True,111A;111B;111C;111D;111E;111F;112A;112B;112C;112D;112E;112F;112G;60A;61A,True,7038.576149371852,True

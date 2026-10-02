@@ -1,0 +1,59 @@
+name: vhh-arpeggio
+channels:
+  - conda-forge
+dependencies:
+  - _openmp_mutex=4.5
+  - biopython=1.85
+  - bzip2=1.0.8
+  - ca-certificates=2026.7.22
+  - cairo=1.18.4
+  - font-ttf-dejavu-sans-mono=2.37
+  - font-ttf-inconsolata=3.000
+  - font-ttf-source-code-pro=2.038
+  - font-ttf-ubuntu=0.83
+  - fontconfig=2.18.3
+  - fonts-conda-ecosystem=1
+  - fonts-conda-forge=1
+  - freetype=2.14.3
+  - gemmi=0.7.3
+  - icu=75.1
+  - libblas=3.11.0
+  - libcblas=3.11.0
+  - libcxx=23.1.0
+  - libexpat=2.8.1
+  - libffi=3.7.0
+  - libfreetype=2.14.3
+  - libfreetype6=2.14.3
+  - libgcc=16.2.0
+  - libgfortran=16.2.0
+  - libgfortran5=16.2.0
+  - libglib=2.88.3
+  - libiconv=1.18
+  - libintl=0.25.1
+  - liblapack=3.11.0
+  - liblzma=5.8.3
+  - libopenblas=0.3.34
+  - libpng=1.6.58
+  - libsqlite=3.53.4
+  - libxml2=2.13.9
+  - libzlib=1.3.2
+  - llvm-openmp=23.1.0
+  - ncurses=6.6
+  - numpy=2.0.2
+  - openbabel=3.1.1
+  - openssl=3.6.4
+  - pcre2=10.47
+  - pip=25.2
+  - pixman=0.46.4
+  - python=3.9.23
+  - python_abi=3.9
+  - readline=8.3
+  - setuptools=80.9.0
+  - tk=8.6.13
+  - tzdata=2026c
+  - wheel=0.45.1
+  - zlib-ng=2.2.5
+  - pip:
+    - pdbe-arpeggio==1.4.4
+
+prefix: "/Users/betulgul/micromamba/envs/vhh-arpeggio"

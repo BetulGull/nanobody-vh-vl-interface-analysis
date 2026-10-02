@@ -1,0 +1,5 @@
+target,group,N,mean_fraction,median_fraction
+full_28_position,VHH,533,0.3570731707317073,0.36
+full_28_position,VH,1429,0.2235969209237229,0.24
+shieldable_15_position_noncdr3,VHH,533,0.18649155722326452,0.1333333333333333
+shieldable_15_position_noncdr3,VH,1429,0.088826685327735,0.0666666666666666
